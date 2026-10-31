@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <!-- Stylised analysis pipeline: image volume -> network -> segmented layers -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0f24"/><stop offset="1" stop-color="#101736"/></linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60a5fa"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+    <filter id="tex"><feTurbulence type="fractalNoise" baseFrequency="0.8 0.25" numOctaves="2" seed="11"/><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 .85 0 0 0 0 .7 0 0 0 1.6 -0.6"/><feComposite in2="SourceGraphic" operator="in"/></filter>
+  </defs>
+  <rect width="640" height="400" fill="url(#bg)"/>
+  <g transform="translate(36 110)">
+    <rect x="20" y="-20" width="150" height="150" rx="6" fill="#1e293b" stroke="#334155"/>
+    <rect x="10" y="-10" width="150" height="150" rx="6" fill="#1e293b" stroke="#334155"/>
+    <rect x="0" y="0" width="150" height="150" rx="6" fill="#0f172a" stroke="#475569"/>
+    <path d="M0 50 C40 38 90 62 150 46 V150 H0 Z" fill="#fff" filter="url(#tex)" opacity=".9"/>
+  </g>
+  <g stroke="url(#g)" stroke-opacity=".45" stroke-width="1.2">
+    <path d="M250 130 L320 110 M250 130 L320 170 M250 130 L320 230 M250 200 L320 110 M250 200 L320 170 M250 200 L320 230 M250 270 L320 170 M250 270 L320 230 M250 270 L320 110"/>
+    <path d="M320 110 L390 150 M320 170 L390 150 M320 230 L390 150 M320 110 L390 220 M320 170 L390 220 M320 230 L390 220"/>
+  </g>
+  <g fill="#0b0f24" stroke="url(#g)" stroke-width="2.5">
+    <circle cx="250" cy="130" r="9"/><circle cx="250" cy="200" r="9"/><circle cx="250" cy="270" r="9"/>
+    <circle cx="320" cy="110" r="9"/><circle cx="320" cy="170" r="9"/><circle cx="320" cy="230" r="9"/>
+    <circle cx="390" cy="150" r="9"/><circle cx="390" cy="220" r="9"/>
+  </g>
+  <g transform="translate(440 110)">
+    <rect width="160" height="150" rx="6" fill="#0f172a" stroke="#475569"/>
+    <path d="M0 50 C40 38 90 62 160 46" stroke="#38bdf8" stroke-width="3" fill="none"/>
+    <path d="M0 78 C50 70 100 92 160 74" stroke="#a78bfa" stroke-width="3" fill="none"/>
+    <path d="M0 112 C40 104 110 124 160 106" stroke="#f472b6" stroke-width="3" fill="none"/>
+    <path d="M0 50 C40 38 90 62 160 46 V74 C100 92 50 70 0 78 Z" fill="#38bdf8" opacity=".12"/>
+    <path d="M0 78 C50 70 100 92 160 74 V106 C110 124 40 104 0 112 Z" fill="#a78bfa" opacity=".12"/>
+  </g>
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="12.5" fill="#cbd5e1" opacity=".8" letter-spacing="1.5">
+    <text x="36" y="300">VOLUME</text><text x="280" y="320">MODEL</text><text x="440" y="300">SEGMENTATION</text>
+  </g>
+</svg>

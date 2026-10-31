@@ -1,0 +1,13 @@
+# Built output (GitHub Actions rebuilds it)
+deploy/
+LiGHT_lab/assets/
+personal/assets/
+data/publications.bib
+
+# Local-only notes: contain local file paths and private details
+SOURCES.md
+
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

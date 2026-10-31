@@ -1,0 +1,1337 @@
+{
+  "_readme": "Single source of truth for both websites. Edit, then run `python build.py`. Every item carries a `source` key that maps to `sources` below. Strings starting with [PLACEHOLDER] are shown on the sites as highlighted placeholders and must be filled or removed before publishing.",
+  "updated": "2026-10-31",
+  "sites": {
+    "lab": "../LiGHT_lab/index.html",
+    "personal": "../personal/index.html",
+    "_note": "Cross-links between the two sites. Change to the full URLs once each site is hosted, e.g. https://<user>.github.io/light-lab/."
+  },
+  "sources": {
+    "cv": "User-supplied CV (Aug 2026)",
+    "gsite": "Personal Google Site: https://sites.google.com/view/nareshr-9169 (fetched 2026-10-31)",
+    "orcid": "ORCID public record: https://orcid.org/0000-0002-3712-5304 (fetched 2026-10-31)",
+    "crossref": "Crossref metadata API: https://api.crossref.org (fetched 2026-10-31)",
+    "kipris": "KIPRIS patent record via DOI https://doi.org/10.8080/1020220096806 (viewed 2026-10-31)",
+    "user": "Supplied by the user in the task brief (2026-10-31)",
+    "roadmap": "User-supplied career-roadmap deck (2014–2024; figures from the user's own publications)",
+    "courses": "Departmental course records (confirm terms)"
+  },
+  "person": {
+    "name": "Naresh Kumar Ravichandran",
+    "display_name": "Naresh Kumar Ravichandran, Ph.D.",
+    "title": "Assistant Professor",
+    "department": "Department of Engineering Design",
+    "institute": "Indian Institute of Technology Madras",
+    "address": "Department of Engineering Design, Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India",
+    "office": "Office: Room ED513, Department of Engineering Design",
+    "contact_email": "lightlab@smail.iitm.ac.in",
+    "contact_email_note": "The only email shown on the sites.",
+    "phone": "+91-44-2257-4759",
+    "photo": "assets/portrait.jpg",
+    "photo_note": "Professional headshot supplied by the user on 2026-10-31, cropped square (600 px). Replace shared/portrait.jpg to change it.",
+    "cv_pdf": "",
+    "cv_note": "Put a public CV PDF next to personal/index.html and set cv_pdf to its file name.",
+    "source": "user, cv",
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?user=nh2tv2IAAAAJ&hl=en",
+      "ORCID": "https://orcid.org/0000-0002-3712-5304",
+      "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=57125825900",
+      "Web of Science": "https://www.webofscience.com/wos/author/record/D-2190-2017",
+      "ResearchGate": "https://www.researchgate.net/profile/Naresh-Kumar-Ravichandran",
+      "LinkedIn": "https://www.linkedin.com/in/nareshr9169",
+      "Portfolio (Google Sites)": "https://sites.google.com/view/nareshr-9169/home",
+      "IIT Madras faculty page": "https://ed.iitm.ac.in/faculty.html?id=Naresh_Kumar_Ravichandran"
+    },
+    "links_source": "gsite, cv",
+    "iitm_profile": "https://ed.iitm.ac.in/faculty.html?id=Naresh_Kumar_Ravichandran"
+  },
+  "lab": {
+    "short": "LiGHT",
+    "name": "Light in Guided-wave Healthcare & Testing",
+    "motto": "Illuminating Science, Innovative Diagnostics & Inspection",
+    "source": "gsite",
+    "website": "",
+    "website_note": "Set to the hosted URL once published (also update sites.lab).",
+    "location": "LiGHT lab: Room ED408, Department of Engineering Design",
+    "location_source": "user",
+    "mission": "LiGHT develops optical imaging and metrology systems that see beneath surfaces without cutting, staining or ionising radiation. We build multimodal, multiscale instruments around optical coherence tomography, hyperspectral imaging and optical microscopy, and take them from the optical bench to the clinic, the field and the factory floor: for earlier, non-invasive diagnosis of oral and other diseases, and for non-destructive inspection in industry and agriculture.",
+    "mission_note": "Drafted from the research themes in the CV; please edit to your own wording."
+  },
+  "bio": {
+    "short": "Naresh Kumar Ravichandran is an Assistant Professor in the Department of Engineering Design at IIT Madras, where he leads the LiGHT lab (Light in Guided-wave Healthcare & Testing). His research develops multimodal, multiscale optical imaging and metrology systems based on optical coherence tomography, hyperspectral imaging and optical microscopy for biomedical diagnostics and industrial non-destructive inspection.",
+    "long": [
+      "Naresh Kumar Ravichandran is an Assistant Professor in the Department of Engineering Design at the Indian Institute of Technology Madras (since March 2025), where he leads the LiGHT lab — Light in Guided-wave Healthcare & Testing. He received the IIT Madras Young Faculty Fellowship on joining.",
+      "Before IIT Madras he spent five years (2020–2025) as a Senior Postdoctoral Researcher with Dr. Kye-Sung Lee at the Korea Basic Science Institute (KBSI), Daejeon, where he designed and built multimodal, multiscale microscopes that combine optical coherence microscopy with line-confocal fluorescence and multiphoton microscopy, including label-free photothermal OCM for locating regions of interest in volumetric specimens, long-term live-cell monitoring of 3D bio-chips, and micro-elastography of human tendon.",
+      "He received his M.S. (2016, advisor Prof. Jeehyun Kim) and Ph.D. (2020, advisor Prof. Mansik Jeon) in Electronics Engineering from Kyungpook National University, Daegu, South Korea, where his doctoral work on optical coherence tomography for dental, biological and agricultural specimens received the Best Ph.D. Thesis award of the Graduate School of Electronics Engineering. He received his B.E. in Electronics & Communication Engineering from St. Peter's University, Tamil Nadu, in 2012.",
+      "He has co-authored more than 50 peer-reviewed publications and holds a Korean patent on structured-illumination microscopy. He serves as a guest editor for MDPI Diagnostics and Photonics and as a reviewer for Optica, Elsevier and MDPI journals."
+    ],
+    "source": "cv, gsite"
+  },
+  "metrics": {
+    "citations": 629,
+    "h_index": 16,
+    "i10_index": 24,
+    "as_of": "Aug 2026",
+    "source": "cv (Google Scholar figures quoted in CV)"
+  },
+  "research_themes": [
+    {
+      "id": "multimodal",
+      "title": "Multimodal 3D Live-Cell & Tissue Imaging",
+      "tagline": "OCM-guided fluorescence for long-term 3D cultures",
+      "summary": "A multimode, multiscale microscope that co-registers optical coherence microscopy (OCM) with line-confocal fluorescence microscopy (LC-FM) and multiphoton microscopy. Label-free OCM maps the whole volume and steers high-magnification fluorescence only where it is needed, so living 3D cultures can be followed for days with less photobleaching and phototoxicity.",
+      "results": [
+        {
+          "text": "Co-registered OCM and LC-FM with interchangeable objectives (10× to 60×), so label-free OCM volumes guide high-resolution 3D fluorescence directly at the chosen region.",
+          "doi": "10.1016/j.optlastec.2024.111351"
+        },
+        {
+          "text": "Rapidly located protrusions of tumour spheroids and narrow tubular branches of self-assembled vascular networks on a biochip, then imaged them instantly at high resolution.",
+          "doi": "10.1016/j.optlastec.2024.111351"
+        },
+        {
+          "text": "Monitored tumour spheroids mixed with extracellular matrix over five days, revealing proliferation and migration relative to the ECM without spending fluorescence on navigation.",
+          "doi": "10.1016/j.optlastec.2024.111351"
+        },
+        {
+          "text": "Developed a long-term storable gel-laden chip composite for high-throughput 3D liver models.",
+          "doi": "10.1088/1758-5090/ad28ef"
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/research/olt-spheroid.webp",
+          "caption": "OCM and fluorescence overlays of a tumour spheroid on day 1 and day 5, with OCM-based 3D guidance",
+          "credit": "Ravichandran et al., Opt. Laser Technol. 179, 111351 (2024), CC BY 4.0",
+          "doi": "10.1016/j.optlastec.2024.111351"
+        },
+        {
+          "src": "assets/research/olt-vascular.webp",
+          "caption": "OCM-navigated imaging of a self-assembled 3D vascular network",
+          "credit": "Ravichandran et al., Opt. Laser Technol. 179, 111351 (2024), CC BY 4.0",
+          "doi": "10.1016/j.optlastec.2024.111351"
+        },
+        {
+          "src": "assets/research/olt-workflow.webp",
+          "caption": "Workflow: ROI selection in 10× OCM, aiming with 60× OCM, then high-resolution 3D fluorescence",
+          "credit": "Ravichandran et al., Opt. Laser Technol. 179, 111351 (2024), CC BY 4.0",
+          "doi": "10.1016/j.optlastec.2024.111351"
+        },
+        {
+          "src": "assets/research/olt-system.webp",
+          "caption": "Multimode OCM–LC-FM system with an environment-controlled live-cell chamber",
+          "credit": "Ravichandran et al., Opt. Laser Technol. 179, 111351 (2024), CC BY 4.0",
+          "doi": "10.1016/j.optlastec.2024.111351"
+        }
+      ],
+      "keywords": [
+        "OCM",
+        "LC-FM",
+        "3D bio-chips",
+        "tumour spheroids",
+        "vascular networks",
+        "live-cell"
+      ],
+      "papers": [
+        "10.1016/j.optlastec.2024.111351",
+        "10.1038/s41598-023-30524-z",
+        "10.1088/1758-5090/ad28ef"
+      ],
+      "source": "publications",
+      "image": "assets/research/olt-spheroid.webp"
+    },
+    {
+      "id": "confocal",
+      "title": "Line-Scan Confocal Fluorescence Microscopy",
+      "tagline": "Fast optical sectioning for thick specimens",
+      "summary": "Epi-illumination line-scan confocal microscopy with rolling-shutter detection for fast volumetric fluorescence imaging, together with simple strategies that sharpen optical sectioning in thick, scattering samples such as organoids and cleared tissue.",
+      "results": [
+        {
+          "text": "Temporally modulated scanning illumination (TMSI): a sinusoidal intensity modulation with a period of twice the line-beam width, synchronised to the rolling shutter, suppresses out-of-focus fluorescence with no hardware modification.",
+          "doi": "10.1063/5.0309715"
+        },
+        {
+          "text": "Showed enhanced sectioning and contrast on 15 µm fluorescent beads, a ~30 µm corn-grain section and a ~180 µm optically cleared mouse kidney, while keeping real-time imaging rates.",
+          "doi": "10.1063/5.0309715"
+        },
+        {
+          "text": "Built line-confocal FM into the multimodal OCM platform for 60× fluorescence at OCM-selected regions of live 3D cultures.",
+          "doi": "10.1016/j.optlastec.2024.111351"
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/research/apl-kidney.webp",
+          "caption": "Cleared mouse kidney: line-scan confocal without (left) and with TMSI (right)",
+          "credit": "Lee, …, Ravichandran, Appl. Phys. Lett. 128, 013701 (2026); reproduced with permission of AIP Publishing",
+          "doi": "10.1063/5.0309715"
+        },
+        {
+          "src": "assets/research/apl-beads-corn.webp",
+          "caption": "Fluorescent beads and corn-grain cells: widefield, line-scan confocal and TMSI",
+          "credit": "Lee, …, Ravichandran, Appl. Phys. Lett. 128, 013701 (2026); reproduced with permission of AIP Publishing",
+          "doi": "10.1063/5.0309715"
+        },
+        {
+          "src": "assets/research/olt-livecell.webp",
+          "caption": "60× LC-FM navigated by OCM for live-cell monitoring over days 1–5",
+          "credit": "Ravichandran et al., Opt. Laser Technol. 179, 111351 (2024), CC BY 4.0",
+          "doi": "10.1016/j.optlastec.2024.111351"
+        }
+      ],
+      "keywords": [
+        "line-scan confocal",
+        "rolling shutter",
+        "optical sectioning",
+        "organoids",
+        "cleared tissue"
+      ],
+      "papers": [
+        "10.1063/5.0309715",
+        "10.1016/j.optlastec.2024.111351"
+      ],
+      "source": "publications",
+      "image": "assets/research/apl-kidney.webp"
+    },
+    {
+      "id": "mpm",
+      "title": "Multiphoton Microscopy: SHG · THG · 2PEF · 3PEF",
+      "tagline": "Label-free nonlinear contrast, guided by photothermal OCM",
+      "summary": "Multiphoton microscopes for second- and third-harmonic generation (SHG, THG) and two- and three-photon excited fluorescence (2PEF, 3PEF), including simultaneous epi- and trans-detection. Label-free photothermal OCM finds the region of interest first, so the femtosecond laser is used only where high-resolution nonlinear imaging is needed.",
+      "results": [
+        {
+          "text": "Phase-differentiated photothermal OCM detects the weak photothermal response that the MPM laser, at reduced power, induces in endogenous absorbers, locating the multiphoton focus on the region of interest.",
+          "doi": "10.1038/s41598-023-30524-z"
+        },
+        {
+          "text": "With automated x–y movement, navigated the MPM focal plane through volumetric samples of 4 mm × 4 mm × 1 mm for targeted SHG imaging of phantoms and a biological specimen.",
+          "doi": "10.1038/s41598-023-30524-z"
+        },
+        {
+          "text": "Built multiphoton systems for SHG/THG and 2PEF/3PEF with simultaneous epi- and trans-detection, and MPM–OCM micro-elastography of human tendon (KBSI projects).",
+          "doi": ""
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/research/sr23-ocm-mpm.webp",
+          "caption": "Collagen network imaged by OCM (zoomed) and by multiphoton microscopy",
+          "credit": "Ravichandran et al., Sci. Rep. 13, 3625 (2023), CC BY 4.0",
+          "doi": "10.1038/s41598-023-30524-z"
+        },
+        {
+          "src": "assets/research/sr23-shg.webp",
+          "caption": "Photothermal-OCM-guided SHG images and the photothermal signal used to find the focus",
+          "credit": "Ravichandran et al., Sci. Rep. 13, 3625 (2023), CC BY 4.0",
+          "doi": "10.1038/s41598-023-30524-z"
+        },
+        {
+          "src": "assets/research/sr23-system.webp",
+          "caption": "Multimodal platform: photothermal OCM combined with a multiphoton microscope",
+          "credit": "Ravichandran et al., Sci. Rep. 13, 3625 (2023), CC BY 4.0",
+          "doi": "10.1038/s41598-023-30524-z"
+        }
+      ],
+      "keywords": [
+        "SHG",
+        "THG",
+        "2PEF",
+        "3PEF",
+        "photothermal OCM",
+        "collagen"
+      ],
+      "papers": [
+        "10.1038/s41598-023-30524-z",
+        "10.1016/j.optlastec.2024.111351"
+      ],
+      "source": "publications, cv",
+      "image": "assets/research/sr23-ocm-mpm.webp"
+    },
+    {
+      "id": "oct",
+      "title": "Optical Coherence Tomography & Microscopy",
+      "tagline": "Label-free, depth-resolved 3D imaging systems",
+      "summary": "Spectral-domain and swept-source OCT, optical coherence microscopy, and handheld, wearable and compact OCT. Our work spans system design, dispersion and path-length compensation, Doppler and speckle-variance contrast, and fast 3D visualisation.",
+      "results": [
+        {
+          "text": "Bi-directional SD-OCT that extends imaging depth using a single spectrometer.",
+          "doi": "10.1117/1.jbo.21.7.076005"
+        },
+        {
+          "text": "Integrated spectrally encoded confocal microscopy and OCT with automatic co-registration, OCT-guided depth targeting and speckle reduction, at about 7 frames/s with GPU processing.",
+          "doi": "10.1364/oe.480261"
+        },
+        {
+          "text": "Handheld Doppler OCT for blood-flow imaging, and an ultra-compact OCT built on a Raspberry Pi single-board computer.",
+          "doi": "10.1016/j.infrared.2018.10.004"
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/research/ga-bidirectional.webp",
+          "caption": "Bi-directional SD-OCT for depth-enhanced imaging",
+          "credit": "Ravichandran et al., J. Biomed. Opt. 21(7), 076005 (2016)",
+          "doi": "10.1117/1.jbo.21.7.076005"
+        },
+        {
+          "src": "assets/roadmap/2016-bench-oct.jpg",
+          "caption": "Bench-top OCT system built during the M.S./Ph.D. at KNU",
+          "credit": "From the career roadmap",
+          "doi": ""
+        }
+      ],
+      "keywords": [
+        "SD-OCT",
+        "SS-OCT",
+        "OCM",
+        "Doppler OCT",
+        "handheld OCT"
+      ],
+      "papers": [
+        "10.1117/1.jbo.21.7.076005",
+        "10.1364/oe.480261",
+        "10.1016/j.infrared.2018.10.004",
+        "10.1016/j.optlaseng.2021.106754",
+        "10.3390/mi15050564"
+      ],
+      "source": "publications",
+      "image": "assets/research/ga-bidirectional.webp"
+    },
+    {
+      "id": "entomology",
+      "title": "Multimodal Optical Entomology",
+      "tagline": "Label-free 3D anatomy of disease vectors",
+      "summary": "Non-destructive optical imaging of mosquitoes, ticks and other insects that carry disease. OCT shows internal organs in 3D without dissection, staining or ionising radiation, and multiphoton microscopy adds label-free nonlinear (SHG) contrast at targeted regions. Together they support comparative anatomy and studies of vector biology.",
+      "results": [
+        {
+          "text": "3D OCT of Anopheles sinensis anatomy: head, thorax, abdomen and the foregut, midgut and hindgut, validated against histology.",
+          "doi": "10.3390/s17081897"
+        },
+        {
+          "text": "Bidirectional swept-source OCT with a rotating sample arm merged top and bottom volumes to image whole mosquitoes. It compared Anopheles, Aedes and Culex species and segmented the heart, midgut, dorsal and ventral crops and abdominal ganglia.",
+          "doi": "10.1016/j.optlastec.2023.109849"
+        },
+        {
+          "text": "SD-OCT (6.2 µm axial, 2.46 µm lateral resolution) identified salivary glands, midgut, genital orifice and ovary in hard ticks without dissection.",
+          "doi": "10.1016/j.infrared.2020.103611"
+        },
+        {
+          "text": "Photothermal-OCM-guided multiphoton (SHG) imaging was demonstrated on a fixed insect specimen.",
+          "doi": "10.1038/s41598-023-30524-z"
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/research/ga-mosquito.webp",
+          "caption": "OCT for entomology: internal anatomy of mosquito pupa, larva and adult",
+          "credit": "Ravichandran et al., Sensors 17, 1897 (2017), CC BY",
+          "doi": "10.3390/s17081897"
+        },
+        {
+          "src": "assets/research/sr23-shg.webp",
+          "caption": "Photothermal-OCM-guided SHG imaging, demonstrated on a fixed insect specimen",
+          "credit": "Ravichandran et al., Sci. Rep. 13, 3625 (2023), CC BY 4.0",
+          "doi": "10.1038/s41598-023-30524-z"
+        }
+      ],
+      "keywords": [
+        "mosquitoes",
+        "ticks",
+        "vector biology",
+        "3D OCT",
+        "SHG",
+        "non-destructive"
+      ],
+      "papers": [
+        "10.3390/s17081897",
+        "10.1016/j.optlastec.2023.109849",
+        "10.1016/j.infrared.2020.103611",
+        "10.1109/eecsi.2018.8752659",
+        "10.1038/s41598-023-30524-z"
+      ],
+      "source": "publications",
+      "image": "assets/research/ga-mosquito.webp"
+    },
+    {
+      "id": "oral",
+      "title": "Oral & Dental Optical Diagnostics",
+      "tagline": "Non-invasive imaging for earlier diagnosis",
+      "summary": "Quantitative OCT of teeth, gingiva and alveolar bone for orthodontics and dentistry. LiGHT now extends this to multimodal optical imaging, including hyperspectral imaging, for earlier, non-invasive detection of oral cancer and other oral pathologies.",
+      "results": [
+        {
+          "text": "3D OCT tracked enamel microcrack progression after metal and ceramic bracket debonding in 16 premolars, with significant changes in crack length, width and number.",
+          "doi": "10.3390/jfb16010007"
+        },
+        {
+          "text": "An intensity-based layer-segmentation algorithm measured micron-scale enamel loss after each step of bracket bonding and debonding.",
+          "doi": "10.1038/s41598-021-90354-9"
+        },
+        {
+          "text": "2D and 3D OCT revealed microcracks and micro-elevations in cortical bone around 80 orthodontic micro-implants inserted by different methods and at different angles.",
+          "doi": "10.1038/s41598-019-39670-9"
+        },
+        {
+          "text": "An averaged-intensity-difference algorithm automatically identified the human gingival sulcus in OCT images.",
+          "doi": "10.1109/access.2019.2920146"
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/research/ga-microimplant.webp",
+          "caption": "OCT assessment of cortical-bone microdamage around orthodontic micro-implants",
+          "credit": "Lakshmikantha, Ravichandran et al., Sci. Rep. 9, 3242 (2019), CC BY",
+          "doi": "10.1038/s41598-019-39670-9"
+        },
+        {
+          "src": "assets/research/ga-enamel-loss.webp",
+          "caption": "Measuring enamel loss after etching and prophylaxis with OCT",
+          "credit": "Ravichandran et al., J. Healthc. Eng. 2019, 8973825, CC BY",
+          "doi": "10.1155/2019/8973825"
+        },
+        {
+          "src": "assets/research/ga-gingival-sulcus.webp",
+          "caption": "Automated gingival sulcus measurement in OCT images",
+          "credit": "Ravichandran et al., IEEE Access 7, 73076 (2019), CC BY",
+          "doi": "10.1109/access.2019.2920146"
+        }
+      ],
+      "keywords": [
+        "dental OCT",
+        "enamel",
+        "orthodontics",
+        "oral cancer",
+        "hyperspectral imaging"
+      ],
+      "papers": [
+        "10.3390/jfb16010007",
+        "10.1038/s41598-021-90354-9",
+        "10.1038/s41598-019-39670-9",
+        "10.1109/access.2019.2920146",
+        "10.1155/2019/8973825"
+      ],
+      "source": "publications, user",
+      "image": "assets/research/ga-microimplant.webp"
+    },
+    {
+      "id": "ndt",
+      "title": "Non-Destructive Industrial & Agricultural Inspection",
+      "tagline": "Optical metrology for Industry 4.0 and the field",
+      "summary": "OCT-based inspection of multilayer industrial parts, together with portable OCT for crops, seeds and plant disease in the field.",
+      "results": [
+        {
+          "text": "Review of OCT for Industry 4.0 covering inspection of displays, thin films, microelectronics, PCBs, laser-based manufacturing and coatings, with open challenges and AI-enabled directions.",
+          "doi": "10.1002/lpor.202502290"
+        },
+        {
+          "text": "Preprint: a 400 kHz swept-source OCT at 1300 nm reconstructed a subsurface defect 0.323 mm below the surface of a SiC focus ring, with a relative volumetric error below 0.01 %.",
+          "doi": "10.2139/ssrn.6350973"
+        },
+        {
+          "text": "Released an open OCT dataset for pre-identifying apple and persimmon leaf disease from palisade and spongy-layer thickness.",
+          "doi": "10.1038/s41597-022-01795-4"
+        },
+        {
+          "text": "Wearable backpack OCT for in-field leaf inspection, and in vivo monitoring of seed growth under salt stress.",
+          "doi": "10.1364/ao.56.00d108"
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/research/ga-seed-growth.webp",
+          "caption": "Non-destructive OCT monitoring of Capsicum annuum seed growth under NaCl stress",
+          "credit": "Ravichandran et al., Sensors 17, 2887 (2017), CC BY",
+          "doi": "10.3390/s17122887"
+        },
+        {
+          "src": "assets/roadmap/2017-backpack-oct.jpg",
+          "caption": "Wearable backpack OCT for in-field leaf inspection",
+          "credit": "Wijesinghe, …, Ravichandran et al., Appl. Opt. 56(9), D108 (2017)",
+          "doi": "10.1364/ao.56.00d108"
+        },
+        {
+          "src": "assets/research/ga-mushroom.webp",
+          "caption": "OCT quantification of moisture in mushroom tissue layers during storage",
+          "credit": "Ravichandran et al., IJAER 12(15), 5011 (2017)",
+          "doi": ""
+        }
+      ],
+      "keywords": [
+        "NDT / NDE",
+        "Industry 4.0",
+        "semiconductors",
+        "thin films",
+        "agriculture"
+      ],
+      "papers": [
+        "10.1002/lpor.202502290",
+        "10.2139/ssrn.6350973",
+        "10.1038/s41597-022-01795-4",
+        "10.1364/ao.56.00d108",
+        "10.3390/s17122887",
+        "10.1016/j.optlaseng.2018.05.013"
+      ],
+      "source": "publications",
+      "image": "assets/research/ga-seed-growth.webp"
+    },
+    {
+      "id": "compute",
+      "title": "Computational Imaging & AI-Assisted Analysis",
+      "tagline": "From optical volumes to quantitative decisions",
+      "summary": "Signal processing, segmentation and deep-learning pipelines that turn OCT and microscopy data into measurements and classifications.",
+      "results": [
+        {
+          "text": "Combined YOLOv8 with OCT to identify okra flower buds and quantify emasculation depth through the sepal and petal layers, outperforming colour-histogram and imaging baselines.",
+          "doi": "10.3390/photonics12100966"
+        },
+        {
+          "text": "Classified seed cultivars by OCT intensity and depth-profile analysis.",
+          "doi": "10.3390/s18082500"
+        },
+        {
+          "text": "Fully automated, real-time segmentation of retinal layers in OCT images.",
+          "doi": "10.35940/ijeat.c5632.029320"
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/research/ga-seed-classification.webp",
+          "caption": "Automated OCT-based seed classification pipeline",
+          "credit": "Manattayil, Ravichandran et al., Sensors 18, 2500 (2018), CC BY",
+          "doi": "10.3390/s18082500"
+        }
+      ],
+      "keywords": [
+        "deep learning",
+        "segmentation",
+        "classification",
+        "3D analysis"
+      ],
+      "papers": [
+        "10.3390/photonics12100966",
+        "10.3390/s18082500",
+        "10.35940/ijeat.c5632.029320",
+        "10.1016/j.compag.2022.107014"
+      ],
+      "source": "publications",
+      "image": "assets/research/ga-seed-classification.webp"
+    }
+  ],
+  "experience": [
+    {
+      "period": "Mar 2025 – present",
+      "role": "Assistant Professor",
+      "org": "Department of Engineering Design, IIT Madras",
+      "place": "Chennai, India",
+      "source": "cv"
+    },
+    {
+      "period": "Mar 2020 – Mar 2025",
+      "role": "Senior Postdoctoral Researcher",
+      "org": "Korea Basic Science Institute (KBSI)",
+      "place": "Daejeon, South Korea",
+      "source": "cv"
+    },
+    {
+      "period": "Mar 2014 – Feb 2020",
+      "role": "Graduate Research Assistant",
+      "org": "School of Electronics Engineering, Kyungpook National University",
+      "place": "Daegu, South Korea",
+      "source": "cv"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D., Electronics Engineering",
+      "org": "Kyungpook National University, Daegu, South Korea",
+      "period": "2016 – 2020",
+      "source": "cv"
+    },
+    {
+      "degree": "M.S., Electronics Engineering",
+      "org": "Kyungpook National University, Daegu, South Korea",
+      "period": "2014 – 2016",
+      "source": "cv"
+    },
+    {
+      "degree": "B.E., Electronics & Communication Engineering",
+      "org": "St. Peter's University, Tamil Nadu, India",
+      "period": "2008 – 2012",
+      "source": "cv"
+    }
+  ],
+  "awards": [
+    {
+      "year": "2025",
+      "title": "Young Faculty Fellowship",
+      "org": "IIT Madras",
+      "source": "cv, gsite"
+    },
+    {
+      "year": "2020",
+      "title": "Best Ph.D. Thesis Award",
+      "org": "Graduate School of Electronics Engineering, Kyungpook National University",
+      "source": "cv, gsite"
+    },
+    {
+      "year": "2019",
+      "title": "Best Research Award",
+      "org": "Kyungpook National University & Brain Korea 21",
+      "source": "cv, gsite"
+    },
+    {
+      "year": "2018",
+      "title": "Best Research Award",
+      "org": "Kyungpook National University & Brain Korea 21",
+      "source": "cv, gsite"
+    },
+    {
+      "year": "2016",
+      "title": "Best Innovation Award",
+      "org": "Kyungpook National University & Qualcomm",
+      "source": "cv, gsite"
+    },
+    {
+      "year": "2016",
+      "title": "Honors Scholarship",
+      "org": "Kyungpook National University",
+      "source": "cv, gsite"
+    },
+    {
+      "year": "2015",
+      "title": "Honors Scholarship",
+      "org": "Kyungpook National University",
+      "source": "cv, gsite"
+    }
+  ],
+  "grants_current": [
+    {
+      "funder": "Anusandhan National Research Foundation (ANRF)",
+      "scheme": "Prime Minister Early Career Research Grant (PM-ECRG)",
+      "id": "ANRF/ECRG/2025/001974/LS",
+      "title": "NIDAN — Non-invasive Imaging & Detection Analysis for Neoplasia: multimodal optical imaging for early, non-invasive detection of oral cancer and oral pathologies",
+      "role": "Principal Investigator",
+      "period": "Jun 2026 – Jun 2029",
+      "source": "user, cv",
+      "art": "assets/art/projects/nidan.svg",
+      "concept": "Fusing structural and spectral optical contrast for real-time, non-invasive optical biopsy of oral lesions.",
+      "art_note": "Concept art (illustration only; no device or design detail)."
+    },
+    {
+      "funder": "Indian Council of Medical Research (ICMR)",
+      "scheme": "First in the World Challenge",
+      "id": "FIW-2025-01-00000968",
+      "title": "DentoBot: a head-mounted miniature robot for improving surgical outcomes in minimally invasive root canal treatments",
+      "role": "Principal Investigator",
+      "period": "May 2026 – May 2027",
+      "source": "user, cv",
+      "art": "assets/art/projects/dentobot.svg",
+      "concept": "Stabilised, precise instrument guidance to improve the outcomes of minimally invasive root canal treatment.",
+      "art_note": "Concept art (illustration only; no device or design detail)."
+    },
+    {
+      "funder": "IIT Madras, Industrial Consultancy & Sponsored Research (ICSR)",
+      "scheme": "New Faculty Initiation Grant",
+      "id": "IP22230304DNIITMDMICSR",
+      "title": "Label-free optical coherence tomography for early detection and assessment of oral cancer lesions",
+      "role": "Principal Investigator",
+      "period": "Aug 2025 – Aug 2027",
+      "source": "user, cv",
+      "art": "assets/art/projects/nfig-oct.svg",
+      "concept": "Depth-resolved, label-free OCT of the oral mucosa to flag early cancerous change without a biopsy.",
+      "art_note": "Concept art (illustration only; no device or design detail)."
+    }
+  ],
+  "grants_past": [
+    {
+      "funder": "Korea Basic Science Institute",
+      "title": "Development of multimode nano-bio optical microscope",
+      "role": "Postdoctoral researcher",
+      "period": "2020 – 2025",
+      "source": "cv"
+    },
+    {
+      "funder": "Institute for Information & Communication Technology Planning & Evaluation (IITP), Korea",
+      "title": "Signal processing and image display device technology for lightweight AR devices",
+      "role": "Postdoctoral researcher",
+      "period": "2022",
+      "source": "cv"
+    },
+    {
+      "funder": "National Research Foundation of Korea",
+      "title": "3D structure and mechanical micro-complex behaviour of human tendon through multi-scale micro-elastography imaging",
+      "role": "Postdoctoral researcher",
+      "period": "2020 – 2022",
+      "source": "cv"
+    },
+    {
+      "funder": "National Research Foundation of Korea",
+      "title": "3D micro-vibration tomography for next-generation hearing rehabilitation medical devices",
+      "role": "Student researcher",
+      "period": "2019 – 2020",
+      "source": "cv"
+    },
+    {
+      "funder": "Korea Institute of Planning and Evaluation for Technology in Food, Agriculture and Forestry",
+      "title": "Early diagnosis of apple brown-pattern and black-star diseases using OCT",
+      "role": "Student researcher",
+      "period": "2016 – 2017",
+      "source": "cv"
+    },
+    {
+      "funder": "Korea Evaluation Institute of Industrial Technology",
+      "title": "Functional fusion micro-imaging device for cardiovascular diagnosis and treatment guidance",
+      "role": "Student researcher",
+      "period": "2016",
+      "source": "cv"
+    },
+    {
+      "funder": "Korea Institute for Advancement of Technology",
+      "title": "Non-destructive automated inspection of 100-micro-layer laminates by 3D optical tomography / vision fusion",
+      "role": "Student researcher",
+      "period": "2015 – 2017",
+      "source": "cv"
+    },
+    {
+      "funder": "Korea Evaluation Institute of Industrial Technology",
+      "title": "Intelligent microsurgical system based on a 3D tissue microscope",
+      "role": "Student researcher",
+      "period": "2015 – 2017",
+      "source": "cv"
+    }
+  ],
+  "patents": [
+    {
+      "title": "Microscopy apparatus for generating structured illumination and operating method thereof",
+      "title_local": "구조조명을 생성하는 현미경 장치 및 이의 동작 방법",
+      "inventors": [
+        "Kye-Sung Lee",
+        "Naresh Kumar Ravichandran"
+      ],
+      "assignee": "Korea Basic Science Institute",
+      "office": "Korean Intellectual Property Office (KIPO)",
+      "number": "KR 10-2599457",
+      "application": "10-2022-0096806",
+      "filed": "2022-08-03",
+      "granted": "2023-11-02",
+      "status": "Granted",
+      "url": "https://doi.org/10.8080/1020220096806",
+      "source": "kipris, cv"
+    }
+  ],
+  "teaching": [
+    {
+      "code": "ED5017",
+      "title": "Digital Signal Processing for Engineering Design",
+      "terms": "Jul–Nov 2026",
+      "level": "PG / Dual Degree",
+      "source": "courses"
+    },
+    {
+      "code": "ED6001",
+      "title": "Medical Image Analysis",
+      "terms": "Jul–Nov 2025, Jul–Nov 2026",
+      "level": "PG / Dual Degree",
+      "source": "courses"
+    },
+    {
+      "code": "ED5071",
+      "title": "Design of Medical Imaging Systems",
+      "terms": "Jan–May 2026",
+      "level": "PG / Dual Degree",
+      "source": "courses"
+    },
+    {
+      "code": "ED5024",
+      "title": "Photonics in Industrial Inspection and Biomedical Diagnostics",
+      "terms": "New course (proposed)",
+      "level": "B.Tech / Dual Degree",
+      "source": "cv, courses"
+    }
+  ],
+  "teaching_note": "Course codes and terms come from local course folders; please confirm levels and terms.",
+  "service": {
+    "editorial": [
+      {
+        "role": "Guest Editor",
+        "journal": "Diagnostics (MDPI)",
+        "issue": "Optical Imaging: Trends, Impact, and Application in Medical and Biomedical Diagnostics",
+        "url": "https://www.mdpi.com/journal/diagnostics/special_issues/BLSNCU0BY8",
+        "source": "cv"
+      },
+      {
+        "role": "Guest Editor",
+        "journal": "Photonics (MDPI)",
+        "issue": "Advances in Biomedical Optical Imaging: Advances, Technologies, and Emerging Applications",
+        "url": "https://www.mdpi.com/journal/photonics/special_issues/0AM848M767",
+        "source": "cv"
+      }
+    ],
+    "reviewer": [
+      "Applied Optics",
+      "Biomedical Optics Express",
+      "Measurement",
+      "Heliyon",
+      "Computer Networks",
+      "Diagnostics",
+      "Photonics",
+      "Sensors",
+      "Journal of Clinical Medicine",
+      "Journal of Personalized Medicine",
+      "International Journal of Molecular Sciences",
+      "Biomolecules",
+      "Tomography"
+    ],
+    "memberships": [
+      "Optica",
+      "SPIE",
+      "IEEE",
+      "Optical Society of India",
+      "Optical Society of Korea"
+    ],
+    "source": "cv"
+  },
+  "talks": [
+    {
+      "year": 2024,
+      "event": "ICAC 2024, Colombo, Sri Lanka",
+      "title": "High-resolution optical imaging incorporated non-destructive morphological boundary detection of fruit disorders: a pilot study",
+      "source": "gsite"
+    },
+    {
+      "year": 2019,
+      "event": "IEEE BHI 2019, Chicago, USA",
+      "title": "Detection algorithm for human gingival sulcus in cross-section images by averaged intensity difference",
+      "source": "cv, gsite"
+    },
+    {
+      "year": 2019,
+      "event": "SPIE Photonics West 2019, San Francisco, USA",
+      "title": "OCT for evaluation of microcrack and microdamage induced on cortical bone due to orthodontic microimplant mounting at 45° and 90°",
+      "source": "cv, gsite"
+    },
+    {
+      "year": 2018,
+      "event": "IEEE EECSI 2018, Malang, Indonesia",
+      "title": "OCT for non-destructive examination of the internal biological structures of mosquito specimen",
+      "source": "cv, gsite"
+    },
+    {
+      "year": 2018,
+      "event": "IEEE TENCON 2018, Jeju, South Korea",
+      "title": "Enamel loss by prophylaxis and etching treatment in human tooth analyzed using OCT — an in vitro study",
+      "source": "cv, gsite"
+    },
+    {
+      "year": 2018,
+      "event": "WMIC 2018, Seattle, USA",
+      "title": "Non-destructive visualization of fascicle bifurcation in rat sciatic nerve using optical detection technique",
+      "source": "cv, gsite"
+    },
+    {
+      "year": 2018,
+      "event": "Biosensors 2018, Miami, USA",
+      "title": "Swept-source OCT for in vivo monitoring of seed growth during NaCl priming",
+      "source": "cv, gsite"
+    },
+    {
+      "year": 2017,
+      "event": "ICESTI 2017, Bali, Indonesia",
+      "title": "Feasibility study for the detection of leaf disease using fiber-based imaging system",
+      "source": "cv, gsite"
+    },
+    {
+      "year": 2017,
+      "event": "OFS-25, Jeju, South Korea",
+      "title": "Swept-source OCT for in vivo growth monitoring of Capsicum annuum seeds treated with different NaCl concentrations",
+      "source": "cv, gsite"
+    },
+    {
+      "year": 2016,
+      "event": "OPIC BISC 2016, Yokohama, Japan",
+      "title": "In vivo swept-source OCT monitoring of plant seeds treated with different NaCl concentrations",
+      "source": "cv, gsite"
+    },
+    {
+      "year": 2016,
+      "event": "WMIC 2016, New York, USA",
+      "title": "Duplex scanning design in SD-OCT for enhanced depth imaging of samples",
+      "source": "cv, gsite"
+    },
+    {
+      "year": 2016,
+      "event": "SPIE Photonics West 2016, San Francisco, USA",
+      "title": "Dual-scan SD-OCT for depth-enhanced investigation of leaf samples using a single spectrometer",
+      "source": "cv, gsite"
+    },
+    {
+      "year": 2014,
+      "event": "OSK 2014, Jeju, South Korea",
+      "title": "Linearizing the pixel response by calibrating the wave number using a wavelength filter for 1310 nm SD-OCT",
+      "source": "cv, gsite"
+    }
+  ],
+  "roadmap": [
+    {
+      "year": "2014",
+      "stage": "M.S.",
+      "title": "Starting out in optical coherence tomography",
+      "place": "Kyungpook National University, Daegu",
+      "items": [
+        "Enrolled in the M.S. programme under Prof. Jeehyun Kim at KNU",
+        "Trained in OCT theory, optics and system building"
+      ],
+      "images": [
+        {
+          "src": "assets/roadmap/2014-interferometer.jpg",
+          "caption": "Spectral-domain OCT principle"
+        }
+      ],
+      "source": "roadmap, cv"
+    },
+    {
+      "year": "2015",
+      "stage": "M.S.",
+      "title": "First complete OCT system",
+      "place": "Kyungpook National University, Daegu",
+      "items": [
+        "Designed and built my first complete OCT system",
+        "Applied OCT to agriculture and entomology",
+        "First co-authored publication; submitted first lead-author manuscript",
+        "KNU Academic Honors Scholarship"
+      ],
+      "images": [
+        {
+          "src": "assets/roadmap/2015-leaf-mosquito.jpg",
+          "caption": "OCT of leaf and mosquito specimens"
+        },
+        {
+          "src": "assets/roadmap/2015-fiber-oct.jpg",
+          "caption": "Fibre-based SD-OCT layout"
+        }
+      ],
+      "source": "roadmap, cv"
+    },
+    {
+      "year": "2016",
+      "stage": "M.S. → Ph.D.",
+      "title": "Bi-directional OCT and the move to a Ph.D.",
+      "place": "Kyungpook National University, Daegu",
+      "items": [
+        "Graduated M.S.; joined the Ph.D. programme under Prof. Mansik Jeon",
+        "First lead-author article: depth-enhanced bi-directional SD-OCT (J. Biomed. Opt.)",
+        "KNU–Qualcomm Innovation Award for the M.S. thesis topic"
+      ],
+      "images": [
+        {
+          "src": "assets/roadmap/2016-bench-oct.jpg",
+          "caption": "Bench-top OCT system"
+        },
+        {
+          "src": "assets/roadmap/2016-innovation-award.jpg",
+          "caption": "KNU–Qualcomm Innovation Award 2016"
+        }
+      ],
+      "source": "roadmap, cv"
+    },
+    {
+      "year": "2017",
+      "stage": "Ph.D.",
+      "title": "Portable OCT and the first clinical study",
+      "place": "Kyungpook National University, Daegu",
+      "items": [
+        "Backpack-type wearable OCT for in-field leaf inspection",
+        "Dual-path handheld OCT for cornea and retina imaging",
+        "Proposed an inter-department study on OCT for orthodontic diagnosis"
+      ],
+      "images": [
+        {
+          "src": "assets/roadmap/2017-backpack-oct.jpg",
+          "caption": "Wearable backpack OCT"
+        },
+        {
+          "src": "assets/roadmap/2017-dual-path-oct.jpg",
+          "caption": "Dual-path handheld OCT"
+        }
+      ],
+      "source": "roadmap, cv"
+    },
+    {
+      "year": "2018",
+      "stage": "Ph.D.",
+      "title": "Handheld Doppler OCT and orthodontic imaging",
+      "place": "Kyungpook National University, Daegu",
+      "items": [
+        "Handheld-probe Doppler OCT for blood-flow imaging",
+        "OCT for rapid seed classification",
+        "KNU & BK21 Best Research Award for OCT of orthodontic micro-implant damage"
+      ],
+      "images": [
+        {
+          "src": "assets/roadmap/2018-doppler-oct.jpg",
+          "caption": "Doppler OCT of artery and vein"
+        },
+        {
+          "src": "assets/roadmap/2018-handheld-oct.jpg",
+          "caption": "Handheld OCT probe"
+        }
+      ],
+      "source": "roadmap, cv"
+    },
+    {
+      "year": "2019",
+      "stage": "Ph.D.",
+      "title": "Dental OCT",
+      "place": "Kyungpook National University, Daegu",
+      "items": [
+        "OCT assessment of enamel after orthodontic bracket debonding",
+        "Averaged-intensity-difference algorithm for the human gingival sulcus",
+        "KNU & BK21 Best Research Award for OCT measurement of enamel loss"
+      ],
+      "images": [
+        {
+          "src": "assets/roadmap/2019-enamel-oct.jpg",
+          "caption": "OCT of enamel layers"
+        },
+        {
+          "src": "assets/roadmap/2019-tooth-3d.jpg",
+          "caption": "3D OCT of human teeth"
+        }
+      ],
+      "source": "roadmap, cv"
+    },
+    {
+      "year": "2020",
+      "stage": "Ph.D. → Postdoc",
+      "title": "Best Ph.D. thesis and the move to KBSI",
+      "place": "KNU, Daegu → Korea Basic Science Institute, Daejeon",
+      "items": [
+        "Ph.D. in Electronics Engineering; Best Ph.D. Thesis Award",
+        "Joined KBSI as a postdoctoral researcher with Dr. Kye-Sung Lee",
+        "Began developing multiphoton microscopy (SHG & THG) and dual epi-/trans-detection MPM"
+      ],
+      "images": [
+        {
+          "src": "assets/roadmap/2020-thesis-award.jpg",
+          "caption": "Best Ph.D. Thesis Award"
+        },
+        {
+          "src": "assets/roadmap/2020-mpm-setup.jpg",
+          "caption": "Multiphoton microscope layout"
+        }
+      ],
+      "source": "roadmap, cv"
+    },
+    {
+      "year": "2021",
+      "stage": "Postdoc",
+      "title": "Photothermal OCT guidance and tendon micro-elastography",
+      "place": "Korea Basic Science Institute, Daejeon",
+      "items": [
+        "Label-free photothermal OCM for 3-axis guidance of multiphoton imaging",
+        "Began building line-confocal fluorescence microscopy integrated with OCM",
+        "Strain measurement in ex vivo human tendon with MPM–OCM"
+      ],
+      "images": [
+        {
+          "src": "assets/roadmap/2021-tendon-strain.jpg",
+          "caption": "3D strain maps of tendon"
+        },
+        {
+          "src": "assets/roadmap/2021-ocm-mpm.jpg",
+          "caption": "Co-registered OCM and MPM"
+        }
+      ],
+      "source": "roadmap, cv"
+    },
+    {
+      "year": "2022",
+      "stage": "Postdoc",
+      "title": "Multimodal imaging of 3D bio-chips",
+      "place": "Korea Basic Science Institute, Daejeon",
+      "items": [
+        "Multimodal OCM with multi-channel line-field fluorescence",
+        "OCM–MPM characterisation of tumour spheroids in 3D bio-chips",
+        "OCM–LC-FM imaging of collagen and vascular networks",
+        "Patent filed: structured-illumination microscopy apparatus (granted 2023)"
+      ],
+      "images": [
+        {
+          "src": "assets/roadmap/2022-spheroid-fm.jpg",
+          "caption": "Tumour spheroid imaging"
+        },
+        {
+          "src": "assets/roadmap/2022-collagen-depth.jpg",
+          "caption": "Depth-resolved collagen networks"
+        }
+      ],
+      "source": "roadmap, cv, kipris"
+    },
+    {
+      "year": "2023–24",
+      "stage": "Postdoc",
+      "title": "Live-cell multimodal microscopy",
+      "place": "Korea Basic Science Institute, Daejeon",
+      "items": [
+        "Photothermal OCM and line-field FM for drug-delivery assessment",
+        "Multimodal OCM–MPM (SHG & 2PEF)–LC-FM for live-cell tumour metastasis studies",
+        "Lead-author papers in Scientific Reports (2023) and Optics & Laser Technology (2024)",
+        "Korean patent KR 10-2599457 granted (Nov 2023)",
+        "Guest editor of special issues in Diagnostics and Photonics"
+      ],
+      "images": [
+        {
+          "src": "assets/roadmap/2023-nk-cells.jpg",
+          "caption": "NK cells, vasculature and tumour spheroid"
+        },
+        {
+          "src": "assets/roadmap/2023-pt-ocm.jpg",
+          "caption": "Photothermal OCM guiding MPM"
+        }
+      ],
+      "source": "roadmap, cv, kipris"
+    },
+    {
+      "year": "2025",
+      "stage": "Faculty",
+      "title": "IIT Madras and the founding of LiGHT",
+      "place": "Department of Engineering Design, IIT Madras, Chennai",
+      "items": [
+        "Joined IIT Madras as Assistant Professor (March 2025) with the Young Faculty Fellowship",
+        "Founded the LiGHT lab: Light in Guided-wave Healthcare & Testing; first Ph.D. scholars join the lab",
+        "Started teaching ED6001 Medical Image Analysis and proposed a new course, ED5024 Photonics in Industrial Inspection and Biomedical Diagnostics"
+      ],
+      "images": [
+        {
+          "src": "assets/brand/nameboard.jpg",
+          "caption": "LiGHT lab nameboard"
+        },
+        {
+          "src": "assets/brand/logo.webp",
+          "caption": "LiGHT lab logo"
+        }
+      ],
+      "highlight": true,
+      "source": "cv, user, gsite, courses"
+    },
+    {
+      "year": "Aug 2025",
+      "stage": "Project",
+      "title": "Label-free OCT for early oral cancer detection",
+      "place": "IIT Madras, Industrial Consultancy & Sponsored Research (ICSR) · New Faculty Initiation Grant",
+      "items": [
+        "Depth-resolved, label-free OCT of the oral mucosa to flag early cancerous change without a biopsy.",
+        "Role: Principal Investigator · Aug 2025 – Aug 2027",
+        "Grant IP22230304DNIITMDMICSR"
+      ],
+      "images": [
+        {
+          "src": "assets/art/projects/nfig-oct.svg",
+          "caption": "Label-free OCT: concept art"
+        }
+      ],
+      "project": true,
+      "source": "user, cv"
+    },
+    {
+      "year": "May 2026",
+      "stage": "Project",
+      "title": "DentoBot: robot-assisted root canal treatment",
+      "place": "Indian Council of Medical Research (ICMR) · First in the World Challenge",
+      "items": [
+        "Stabilised, precise instrument guidance to improve the outcomes of minimally invasive root canal treatment.",
+        "Role: Principal Investigator · May 2026 – May 2027",
+        "Grant FIW-2025-01-00000968"
+      ],
+      "images": [
+        {
+          "src": "assets/art/projects/dentobot.svg",
+          "caption": "DentoBot: concept art"
+        }
+      ],
+      "project": true,
+      "source": "user, cv"
+    },
+    {
+      "year": "Jun 2026",
+      "stage": "Project",
+      "title": "NIDAN: non-invasive optical biopsy for oral cancer",
+      "place": "Anusandhan National Research Foundation (ANRF) · Prime Minister Early Career Research Grant (PM-ECRG)",
+      "items": [
+        "Fusing structural and spectral optical contrast for real-time, non-invasive optical biopsy of oral lesions.",
+        "Role: Principal Investigator · Jun 2026 – Jun 2029",
+        "Grant ANRF/ECRG/2025/001974/LS"
+      ],
+      "images": [
+        {
+          "src": "assets/art/projects/nidan.svg",
+          "caption": "NIDAN: concept art"
+        }
+      ],
+      "project": true,
+      "source": "user, cv"
+    },
+    {
+      "year": "2026",
+      "stage": "Faculty",
+      "title": "Growing LiGHT's research and teaching",
+      "place": "LiGHT lab, IIT Madras",
+      "items": [
+        "Corresponding-author paper in Applied Physics Letters; review on OCT for Industry 4.0 in Laser & Photonics Reviews",
+        "Teaching ED5071 Design of Medical Imaging Systems, ED5017 Digital Signal Processing for Engineering Design, ED6001 Medical Image Analysis, and the new course ED5024 Photonics in Industrial Inspection and Biomedical Diagnostics"
+      ],
+      "images": [
+        {
+          "src": "assets/art/hsi.svg",
+          "caption": "Multimodal & hyperspectral imaging (illustration)"
+        },
+        {
+          "src": "assets/art/ndt.svg",
+          "caption": "Non-destructive inspection (illustration)"
+        }
+      ],
+      "highlight": true,
+      "source": "user, cv, orcid, courses"
+    },
+    {
+      "year": "Next",
+      "stage": "Vision",
+      "title": "From the bench to the chair-side",
+      "place": "LiGHT lab, IIT Madras",
+      "items": [
+        "Translate multimodal optical imaging into clinical studies for earlier, non-invasive oral cancer detection",
+        "Grow LiGHT's team of students and researchers across optics, instrumentation and AI",
+        "Extend non-destructive optical metrology to Indian industry and agriculture"
+      ],
+      "images": [],
+      "future": true,
+      "source": "cv"
+    }
+  ],
+  "roadmap_note": "2014–2024 follows the user's career-roadmap deck; 2025, 2026 and 'Next' are added from the CV, the grants and current research. The 'Next' text is a draft; edit freely.",
+  "news": [
+    {
+      "date": "2026-06",
+      "tag": "Funding",
+      "text": "LiGHT receives the ANRF Prime Minister Early Career Research Grant for NIDAN, a project on non-invasive optical detection of oral cancer.",
+      "source": "user, cv"
+    },
+    {
+      "date": "2026-05",
+      "tag": "Funding",
+      "text": "ICMR First in the World Challenge award for DentoBot, a head-mounted miniature robot for root canal treatment.",
+      "source": "user, cv"
+    },
+    {
+      "date": "2026",
+      "tag": "Paper",
+      "text": "Review on OCT for high-precision industrial inspection in Industry 4.0 published in Laser & Photonics Reviews.",
+      "link": "https://doi.org/10.1002/lpor.202502290",
+      "source": "orcid, crossref"
+    },
+    {
+      "date": "2026",
+      "tag": "Paper",
+      "text": "Optical sectioning enhancement in epi-illumination line-scan confocal microscopy published in Applied Physics Letters.",
+      "link": "https://doi.org/10.1063/5.0309715",
+      "source": "orcid, crossref"
+    },
+    {
+      "date": "2025-08",
+      "tag": "Funding",
+      "text": "IIT Madras New Faculty Initiation Grant awarded for label-free OCT of oral cancer lesions.",
+      "source": "user, cv"
+    },
+    {
+      "date": "2025-03",
+      "tag": "Lab",
+      "text": "Naresh joins the Department of Engineering Design, IIT Madras, as Assistant Professor and starts the LiGHT lab; awarded the IIT Madras Young Faculty Fellowship.",
+      "source": "cv"
+    }
+  ],
+  "people": {
+    "groups": {
+      "staff": "Research staff",
+      "phd": "Ph.D. scholars",
+      "intern": "Research interns"
+    },
+    "members": [
+      {
+        "group": "staff",
+        "name": "Dr. Pucha Sai Manaswini",
+        "role": "Project Research Scientist-I",
+        "detail": "BDS; MDS in Conservative Dentistry and Endodontics, Rajiv Gandhi University of Health Sciences (RGUHS)",
+        "photo": "",
+        "source": "user"
+      },
+      {
+        "group": "phd",
+        "name": "Dr. Varun Prabhuji",
+        "role": "Ph.D. Scholar (2025–)",
+        "detail": "BDS, Krishnadevaraya College of Dental Sciences and Hospital; MDS in Conservative Dentistry and Endodontics, The Oxford Dental College. Now pursuing a Ph.D. in Engineering Design, IIT Madras",
+        "photo": "",
+        "source": "user"
+      },
+      {
+        "group": "phd",
+        "name": "Gobinath B",
+        "role": "Ph.D. Scholar (2025–)",
+        "detail": "Department of Engineering Design, IIT Madras",
+        "photo": "",
+        "source": "user"
+      },
+      {
+        "group": "intern",
+        "name": "Karan Sai Thamizoli",
+        "role": "Research Intern",
+        "detail": "B.Tech Biomedical Engineering, SRM Institute of Science and Technology (2022–2026)",
+        "photo": "",
+        "source": "user"
+      },
+      {
+        "group": "intern",
+        "name": "Sudhirvarman M",
+        "role": "Research Intern",
+        "detail": "B.Tech Biomedical Engineering, SRM Institute of Science and Technology (2022–2026)",
+        "photo": "",
+        "source": "user"
+      },
+      {
+        "group": "intern",
+        "name": "K Lakshmi Asritha Reddy",
+        "role": "Research Intern",
+        "detail": "Final-year B.Tech Biomedical Engineering, Vignan's Foundation for Science, Technology and Research, Guntur",
+        "photo": "",
+        "source": "user"
+      },
+      {
+        "group": "intern",
+        "name": "Surendra Reddy Bontha",
+        "role": "Research Intern",
+        "detail": "Final-year B.Tech Biomedical Engineering, Vignan's Foundation for Science, Technology and Research, Guntur",
+        "photo": "",
+        "source": "user"
+      }
+    ],
+    "members_note": "Add photos as shared/people/<file>.jpg and set photo to assets/people/<file>.jpg; add an 'interest' line per person if wanted.",
+    "alumni": [],
+    "openings": "We welcome motivated M.S., Ph.D., dual-degree and B.Tech students, postdoctoral researchers and project staff with interests in optics, photonics, biomedical imaging, instrumentation, signal and image processing, or machine learning. Please email a CV and a short statement of interest.",
+    "openings_note": "Generic text; edit to match current openings and IITM admission routes."
+  },
+  "collaborators": [
+    {
+      "name": "Kyungpook National University (School of Electronics Engineering; School of Dentistry)",
+      "country": "South Korea",
+      "source": "gsite"
+    },
+    {
+      "name": "Korea Basic Science Institute",
+      "country": "South Korea",
+      "source": "cv"
+    }
+  ],
+  "research_note": "Results paraphrase each paper's abstract or conclusions. Figures come from the user's own papers (OLT 2024 and Sci Rep 2023 are CC BY 4.0) and from the graphical abstracts in the Google Site gallery. Confirm reuse terms for the APL (AIP), JBO (SPIE) and Applied Optics (Optica) figures.",
+  "analytics": {
+    "goatcounter": "",
+    "_note": "Set to your GoatCounter code (e.g. 'lightlab' for https://lightlab.goatcounter.com) to enable private visit tracking."
+  }
+}

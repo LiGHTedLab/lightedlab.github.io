@@ -1,0 +1,40 @@
+/* Personal site theme: light editorial look, serif display type, teal accent. */
+:root {
+  --accent: #0f766e;
+  --accent-2: #4338ca;
+  --font-head: "Fraunces", Georgia, "Times New Roman", serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --accent: #2dd4bf; --accent-ink: #042f2e; } }
+:root[data-theme="dark"] { --accent: #2dd4bf; --accent-ink: #042f2e; }
+
+.brand { font-size: 18px; }
+.section-title { font-weight: 600; }
+
+.intro { padding: 76px 0 64px; background:
+  radial-gradient(900px 420px at 100% 0%, color-mix(in srgb, var(--accent) 10%, transparent), transparent 70%),
+  radial-gradient(700px 380px at 0% 100%, color-mix(in srgb, var(--accent-2) 8%, transparent), transparent 70%); }
+.intro-grid { display: grid; grid-template-columns: 260px 1fr; gap: 56px; align-items: center; }
+.intro .avatar { width: 260px; height: 260px; font-size: 72px; margin: 0; box-shadow: 0 0 0 8px var(--bg), 0 0 0 9px var(--line), var(--shadow); }
+.intro h1 { font-size: clamp(36px, 5.4vw, 60px); font-weight: 600; letter-spacing: -.02em; margin-bottom: 8px; }
+.intro .role { font-size: 18px; color: var(--ink-2); margin-bottom: 4px; }
+.intro .role b { color: var(--accent); font-weight: 600; }
+.intro .lede { margin: 18px 0 22px; }
+.intro .btn-row { margin-bottom: 22px; }
+@media (max-width: 820px) {
+  .intro-grid { grid-template-columns: 1fr; gap: 28px; text-align: center; }
+  .intro .avatar { width: 180px; height: 180px; margin: 0 auto; font-size: 54px; }
+  .intro .btn-row, .intro .profile-links { justify-content: center; }
+  .intro .lede { margin-left: auto; margin-right: auto; }
+}
+
+.about-grid { display: grid; grid-template-columns: 1.35fr 1fr; gap: 48px; }
+@media (max-width: 900px) { .about-grid { grid-template-columns: 1fr; } }
+.about-grid p { color: var(--ink-2); font-size: 16.5px; }
+.facts h3 { font-size: 20px; margin: 0 0 16px; }
+
+.metric-row { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; margin-top: 28px; }
+@media (max-width: 640px) { .metric-row { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.metric-row .num { color: var(--accent); }
+
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+@media (max-width: 860px) { .two-col { grid-template-columns: 1fr; } }

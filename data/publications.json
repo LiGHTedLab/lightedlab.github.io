@@ -1,0 +1,1538 @@
+[
+  {
+    "id": "10.2139/ssrn.6350973",
+    "type": "preprint",
+    "year": 2026,
+    "title": "Non-destructive three-dimensional defect mapping in silicon carbide focus ring using optical coherence tomography",
+    "authors": [
+      "Tinaya Wijethunge",
+      "Daewoon Seong",
+      "Sangyeob Han",
+      "Sm Abu Saleah",
+      "Jannat  Amrin Luna",
+      "Nipun  Shantha Kahatapitiya",
+      "Naresh  Kumar Ravichandran",
+      "Ruchire  Eranga Wijesinghe",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "SSRN preprint",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "doi": "10.2139/ssrn.6350973",
+    "url": "https://doi.org/10.2139/ssrn.6350973",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref"
+    ]
+  },
+  {
+    "id": "10.1002/lpor.202502290",
+    "type": "journal",
+    "year": 2026,
+    "title": "Optical Coherence Tomography for High-Precision Industrial Inspection in Industry 4.0: Advances, Challenges, and Future Trends",
+    "authors": [
+      "Nipun Shantha Kahatapitiya",
+      "Sm Abu Saleah",
+      "Daewoon Seong",
+      "Naresh Kumar Ravichandran",
+      "Sangyeob Han",
+      "Ruchire Eranga Wijesinghe",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Laser & Photonics Reviews",
+    "volume": "20",
+    "issue": "8",
+    "pages": "e02290",
+    "doi": "10.1002/lpor.202502290",
+    "url": "https://doi.org/10.1002/lpor.202502290",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1063/5.0309715",
+    "type": "journal",
+    "year": 2026,
+    "title": "Simple approach for optical sectioning enhancement in epi-illumination line-scan confocal microscopy",
+    "authors": [
+      "Kye-Sung Lee",
+      "Sangwon Hyun",
+      "Hwan Hur",
+      "Ji Yong Bae",
+      "I Jong Kim",
+      "Naresh Kumar Ravichandran"
+    ],
+    "venue": "Applied Physics Letters",
+    "volume": "128",
+    "issue": "1",
+    "pages": "013701",
+    "doi": "10.1063/5.0309715",
+    "url": "https://doi.org/10.1063/5.0309715",
+    "corresponding": true,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.3390/applmech6030069",
+    "type": "journal",
+    "year": 2025,
+    "title": "Electromagnetic Continuously Variable Transmission (EMCVT) System for Precision Torque Control in Human-Centered Robotic Applications",
+    "authors": [
+      "Ishara Madusankha",
+      "Prageeth Nimantha Jayaweera",
+      "Nipun Shantha Kahatapitiya",
+      "Peshan Sampath",
+      "Ashan Weeraratne",
+      "Kasun Subasinghage",
+      "Chamara Liyanage",
+      "Akila Wijethunge",
+      "Naresh Kumar Ravichandran",
+      "Ruchire Eranga Wijesinghe"
+    ],
+    "venue": "Applied Mechanics",
+    "volume": "6",
+    "issue": "3",
+    "pages": "69",
+    "doi": "10.3390/applmech6030069",
+    "url": "https://doi.org/10.3390/applmech6030069",
+    "corresponding": true,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.3390/photonics12100966",
+    "type": "journal",
+    "year": 2025,
+    "title": "Optical Coherence Imaging Hybridized Deep Learning Framework for Automated Plant Bud Classification in Emasculation Processes: A Pilot Study",
+    "authors": [
+      "Dasun Tharaka",
+      "Abisheka Withanage",
+      "Nipun Shantha Kahatapitiya",
+      "Ruvini Abhayapala",
+      "Udaya Wijenayake",
+      "Akila Wijethunge",
+      "Naresh Kumar Ravichandran",
+      "Bhagya Nathali Silva",
+      "Mansik Jeon",
+      "Jeehyun Kim",
+      "Udayagee Kumarasinghe",
+      "Ruchire Eranga Wijesinghe"
+    ],
+    "venue": "Photonics",
+    "volume": "12",
+    "issue": "10",
+    "pages": "966",
+    "doi": "10.3390/photonics12100966",
+    "url": "https://doi.org/10.3390/photonics12100966",
+    "corresponding": true,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1364/oe.546629",
+    "type": "journal",
+    "year": 2025,
+    "title": "Overview of photon-counted three-dimensional imaging and related applications",
+    "authors": [
+      "Vineela Chandra Dodda",
+      "Lakshmi Kuruguntla",
+      "Naresh Kumar Ravichandran",
+      "Kye-Sung Lee",
+      "Rudrakant Sollapur",
+      "Mathivanan Damodaran",
+      "Ravi Kumar",
+      "Neelapala Anilkumar",
+      "Srikanth Itapu",
+      "Manoj Kumar",
+      "Osamu Matoba",
+      "Bryan M. Hennelly",
+      "Adrian Stern",
+      "Inbarasan Muniraj"
+    ],
+    "venue": "Optics Express",
+    "volume": "33",
+    "issue": "15",
+    "pages": "31211",
+    "doi": "10.1364/oe.546629",
+    "url": "https://doi.org/10.1364/oe.546629",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1088/1758-5090/ad28ef",
+    "type": "journal",
+    "year": 2024,
+    "title": "A long-term storable gel-laden chip composite built in a multi-well plate enabling in situ cell encapsulation for high-throughput liver model",
+    "authors": [
+      "Min Kyeong Kim",
+      "Jubin Park",
+      "Sungho Tak",
+      "Kyurim Paek",
+      "Geul Bang",
+      "Sang-Mi Woo",
+      "Naresh Kumar Ravichandran",
+      "Won Gi Hong",
+      "Hyun-Wook Kang",
+      "Hyang Kim",
+      "Ji Yong Bae",
+      "Jeong Ah Kim"
+    ],
+    "venue": "Biofabrication",
+    "volume": "16",
+    "issue": "2",
+    "pages": "025020",
+    "doi": "10.1088/1758-5090/ad28ef",
+    "url": "https://doi.org/10.1088/1758-5090/ad28ef",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.3390/diagnostics14171938",
+    "type": "journal",
+    "year": 2024,
+    "title": "Early-Stage Prototype Assessment of Cost-Effective Non-Intrusive Wearable Device for Instant Home Fetal Movement and Distress Detection: A Pilot Study",
+    "authors": [
+      "Hana Mohamed",
+      "Suresh Kathriarachchi",
+      "Nipun Kahatapitiya",
+      "Bhagya Silva",
+      "Deshan Kalupahana",
+      "Sajith Edirisinghe",
+      "Udaya Wijenayake",
+      "Naresh Ravichandran",
+      "Ruchire Wijesinghe"
+    ],
+    "venue": "Diagnostics",
+    "volume": "14",
+    "issue": "17",
+    "pages": "1938",
+    "doi": "10.3390/diagnostics14171938",
+    "url": "https://doi.org/10.3390/diagnostics14171938",
+    "corresponding": true,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.3390/mi15050564",
+    "type": "journal",
+    "year": 2024,
+    "title": "Growing Trend to Adopt Speckle Variance Optical Coherence Tomography for Biological Tissue Assessments in Pre-Clinical Applications",
+    "authors": [
+      "Ruchire Eranga Wijesinghe",
+      "Nipun Shantha Kahatapitiya",
+      "Changho Lee",
+      "Sangyeob Han",
+      "Shinheon Kim",
+      "Sm Abu Saleah",
+      "Daewoon Seong",
+      "Bhagya Nathali Silva",
+      "Udaya Wijenayake",
+      "Naresh Kumar Ravichandran",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Micromachines",
+    "volume": "15",
+    "issue": "5",
+    "pages": "564",
+    "doi": "10.3390/mi15050564",
+    "url": "https://doi.org/10.3390/mi15050564",
+    "corresponding": true,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1109/icac64487.2024.10850896",
+    "type": "conference",
+    "year": 2024,
+    "title": "High-Resolution Optical Imaging Incorporated Non-Destructive Morphological Boundary Detection of Fruit Disorders: A Pilot Study",
+    "authors": [
+      "Nethmi Tharushi Hakmana",
+      "Nipun Shantha Kahatapitiya",
+      "Sasmitha Weerasinghe",
+      "Deshan Kalupahana",
+      "Bhagya Nathali Silva",
+      "Naresh Kumar Ravichandran",
+      "Daewoon Seong",
+      "Sangyeob Han",
+      "Seung Yeol Lee",
+      "Hee-Young June",
+      "Mansik Jeon",
+      "Jeehyun Kim",
+      "Udaya Wijenayake",
+      "Ruchire Eranga Wijesinghe"
+    ],
+    "venue": "2024 6th International Conference on Advancements in Computing (ICAC)",
+    "volume": "",
+    "issue": "",
+    "pages": "300-305",
+    "doi": "10.1109/icac64487.2024.10850896",
+    "url": "https://doi.org/10.1109/icac64487.2024.10850896",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1016/j.optlastec.2023.109849",
+    "type": "journal",
+    "year": 2024,
+    "title": "Label-free visualization of internal organs and assessment of anatomical differences among adult Anopheles, Aedes, and Culex mosquito specimens using bidirectional optical coherence tomography",
+    "authors": [
+      "Jannat Amrin Luna",
+      "Naresh Kumar Ravichandran",
+      "Sm Abu Saleah",
+      "Ruchire Eranga Wijesinghe",
+      "Daewoon Seong",
+      "Kwang Shik Choi",
+      "Hee-Young Jung",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Optics & Laser Technology",
+    "volume": "168",
+    "issue": "",
+    "pages": "109849",
+    "doi": "10.1016/j.optlastec.2023.109849",
+    "url": "https://doi.org/10.1016/j.optlastec.2023.109849",
+    "corresponding": false,
+    "cofirst": true,
+    "sources": [
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1016/j.optlastec.2024.111351",
+    "type": "journal",
+    "year": 2024,
+    "title": "Monitoring of three-dimensional live-cell cultures using a multimode, multiscale imaging system combining confocal fluorescence microscopy and optical coherence microscopy",
+    "authors": [
+      "Naresh Kumar Ravichandran",
+      "HyeMi Kim",
+      "Joonha Park",
+      "Hwan Hur",
+      "Jinsung Kim",
+      "Ji Yong Bae",
+      "Sangwon Hyun",
+      "I Jong Kim",
+      "Dong Uk Kim",
+      "Sang-Chul Lee",
+      "Ki Soo Chang",
+      "Inbarasan Muniraj",
+      "Jessie S. Jeon",
+      "Ki-Hwan Nam",
+      "Kye-Sung Lee"
+    ],
+    "venue": "Optics & Laser Technology",
+    "volume": "179",
+    "issue": "",
+    "pages": "111351",
+    "doi": "10.1016/j.optlastec.2024.111351",
+    "url": "https://doi.org/10.1016/j.optlastec.2024.111351",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1016/j.ijleo.2024.171678",
+    "type": "journal",
+    "year": 2024,
+    "title": "Non-destructive morphological screening for the assessment of postharvest storage effect on pears stored with apples using optical coherence tomography",
+    "authors": [
+      "Jannat Amrin Luna",
+      "Ruchire Eranga Wijesinghe",
+      "Seung-Yeol Lee",
+      "Naresh Kumar Ravichandran",
+      "Sm Abu Saleah",
+      "Daewoon Seong",
+      "Hee-Young Jung",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Optik",
+    "volume": "301",
+    "issue": "",
+    "pages": "171678",
+    "doi": "10.1016/j.ijleo.2024.171678",
+    "url": "https://doi.org/10.1016/j.ijleo.2024.171678",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.3390/jfb16010007",
+    "type": "journal",
+    "year": 2024,
+    "title": "Three-Dimensional Assessment of Dental Enamel Microcrack Progression After Orthodontic Bracket Debonding Using Optical Coherence Tomography",
+    "authors": [
+      "Ahmed Haj Hamdan",
+      "Sm Abu Saleah",
+      "Daewoon Seong",
+      "Naresh Kumar Ravichandran",
+      "Ruchire Eranga Wijesinghe",
+      "Sangyeob Han",
+      "Jeehyun Kim",
+      "Mansik Jeon",
+      "Hyo-Sang Park"
+    ],
+    "venue": "Journal of Functional Biomaterials",
+    "volume": "16",
+    "issue": "1",
+    "pages": "7",
+    "doi": "10.3390/jfb16010007",
+    "url": "https://doi.org/10.3390/jfb16010007",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1038/s41598-023-30524-z",
+    "type": "journal",
+    "year": 2023,
+    "title": "Label-free photothermal optical coherence microscopy to locate desired regions of interest in multiphoton imaging of volumetric specimens",
+    "authors": [
+      "Naresh Kumar Ravichandran",
+      "Hwan Hur",
+      "Hyemi Kim",
+      "Sangwon Hyun",
+      "Ji Yong Bae",
+      "Dong Uk Kim",
+      "I Jong Kim",
+      "Ki-Hwan Nam",
+      "Ki Soo Chang",
+      "Kye-Sung Lee"
+    ],
+    "venue": "Scientific Reports",
+    "volume": "13",
+    "issue": "1",
+    "pages": "3625",
+    "doi": "10.1038/s41598-023-30524-z",
+    "url": "https://doi.org/10.1038/s41598-023-30524-z",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.3390/technologies11060157",
+    "type": "journal",
+    "year": 2023,
+    "title": "Recent Technological Progress of Fiber-Optical Sensors for Bio-Mechatronics Applications",
+    "authors": [
+      "Mohomad Aqeel Abdhul Rahuman",
+      "Nipun Shantha Kahatapitiya",
+      "Viraj Niroshan Amarakoon",
+      "Udaya Wijenayake",
+      "Bhagya Nathali Silva",
+      "Mansik Jeon",
+      "Jeehyun Kim",
+      "Naresh Kumar Ravichandran",
+      "Ruchire Eranga Wijesinghe"
+    ],
+    "venue": "Technologies",
+    "volume": "11",
+    "issue": "6",
+    "pages": "157",
+    "doi": "10.3390/technologies11060157",
+    "url": "https://doi.org/10.3390/technologies11060157",
+    "corresponding": true,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1364/oe.480261",
+    "type": "journal",
+    "year": 2023,
+    "title": "Spectrally encoded dual-mode interferometry with orthogonal scanning",
+    "authors": [
+      "Kye-Sung Lee",
+      "Naresh Kumar Ravichandran",
+      "Woo-Jong Yeo",
+      "Hwan Hur",
+      "Sangwon Hyun",
+      "Ji Yong Bae",
+      "Dong Uk Kim",
+      "I Jong Kim",
+      "Ki-Hwan Nam",
+      "Min Gab Bog",
+      "Ki Soo Chang",
+      "Geon Hee Kim"
+    ],
+    "venue": "Optics Express",
+    "volume": "31",
+    "issue": "6",
+    "pages": "10500",
+    "doi": "10.1364/oe.480261",
+    "url": "https://doi.org/10.1364/oe.480261",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1016/j.optlaseng.2021.106754",
+    "type": "journal",
+    "year": 2022,
+    "title": "Development of raspberry Pi single-board computer architecture based ultra-compact optical coherence tomography",
+    "authors": [
+      "Hoseong Cho",
+      "Pilun Kim",
+      "Ruchire Eranga Wijesinghe",
+      "Hyeree Kim",
+      "Naresh Kumar Ravichandran",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Optics and Lasers in Engineering",
+    "volume": "148",
+    "issue": "",
+    "pages": "106754",
+    "doi": "10.1016/j.optlaseng.2021.106754",
+    "url": "https://doi.org/10.1016/j.optlaseng.2021.106754",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1038/s41597-022-01795-4",
+    "type": "journal",
+    "year": 2022,
+    "title": "On-field optical imaging data for the pre-identification and estimation of leaf deformities",
+    "authors": [
+      "Sm Abu Saleah",
+      "Ruchire Eranga Wijesinghe",
+      "Seung-Yeol Lee",
+      "Naresh Kumar Ravichandran",
+      "Daewoon Seong",
+      "Hee-Young Jung",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Scientific Data",
+    "volume": "9",
+    "issue": "1",
+    "pages": "698",
+    "doi": "10.1038/s41597-022-01795-4",
+    "url": "https://doi.org/10.1038/s41597-022-01795-4",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1016/j.compag.2022.107014",
+    "type": "journal",
+    "year": 2022,
+    "title": "Optical signal intensity incorporated rice seed cultivar classification using optical coherence tomography",
+    "authors": [
+      "Sm Abu Saleah",
+      "Seung-Yeol Lee",
+      "Ruchire Eranga Wijesinghe",
+      "Junsoo Lee",
+      "Daewoon Seong",
+      "Naresh Kumar Ravichandran",
+      "Hee-Young Jung",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Computers and Electronics in Agriculture",
+    "volume": "198",
+    "issue": "",
+    "pages": "107014",
+    "doi": "10.1016/j.compag.2022.107014",
+    "url": "https://doi.org/10.1016/j.compag.2022.107014",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1016/j.infrared.2020.103611",
+    "type": "journal",
+    "year": 2021,
+    "title": "Identification of organs inside hard tick body using spectral-domain optical coherence tomography",
+    "authors": [
+      "Junsoo Lee",
+      "Jihun Ryu",
+      "Sangyeob Han",
+      "Naresh Kumar Ravichandran",
+      "Daewoon Seong",
+      "Jaeyul Lee",
+      "Ruchire Eranga Wijesinghe",
+      "Pilun Kim",
+      "Seung-Yeol Lee",
+      "Hee-Young Jung",
+      "Mansik Jeon",
+      "Kwang Shik Choi",
+      "Jeehyun Kim"
+    ],
+    "venue": "Infrared Physics & Technology",
+    "volume": "114",
+    "issue": "",
+    "pages": "103611",
+    "doi": "10.1016/j.infrared.2020.103611",
+    "url": "https://doi.org/10.1016/j.infrared.2020.103611",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.3390/s21041305",
+    "type": "journal",
+    "year": 2021,
+    "title": "Integrated Quad-Scanner Strategy-Based Optical Coherence Tomography for the Whole-Directional Volumetric Imaging of a Sample",
+    "authors": [
+      "Sm Abu Saleah",
+      "Daewoon Seong",
+      "Sangyeob Han",
+      "Ruchire Eranga Wijesinghe",
+      "Naresh Kumar Ravichandran",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Sensors",
+    "volume": "21",
+    "issue": "4",
+    "pages": "1305",
+    "doi": "10.3390/s21041305",
+    "url": "https://doi.org/10.3390/s21041305",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1038/s41598-021-90354-9",
+    "type": "journal",
+    "year": 2021,
+    "title": "Micron-scale human enamel layer characterization after orthodontic bracket debonding by intensity-based layer segmentation in optical coherence tomography images",
+    "authors": [
+      "Naresh Kumar Ravichandran",
+      "Hemanth Tumkur Lakshmikantha",
+      "Hyo-Sang Park",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Scientific Reports",
+    "volume": "11",
+    "issue": "1",
+    "pages": "10831",
+    "doi": "10.1038/s41598-021-90354-9",
+    "url": "https://doi.org/10.1038/s41598-021-90354-9",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1109/access.2020.2990357",
+    "type": "journal",
+    "year": 2020,
+    "title": "Dynamic Compensation of Path Length Difference in Optical Coherence Tomography by an Automatic Temperature Control System of Optical Fiber",
+    "authors": [
+      "Daewoon Seong",
+      "Sangyeob Han",
+      "Deokmin Jeon",
+      "Yoonseok Kim",
+      "Ruchire Eranga Wijesinghe",
+      "Naresh Kumar Ravichandran",
+      "Jaeyul Lee",
+      "Junsoo Lee",
+      "Pilun Kim",
+      "Dong-Eun Lee",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "IEEE Access",
+    "volume": "8",
+    "issue": "",
+    "pages": "77501-77510",
+    "doi": "10.1109/access.2020.2990357",
+    "url": "https://doi.org/10.1109/access.2020.2990357",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.35940/ijeat.c5632.029320",
+    "type": "journal",
+    "year": 2020,
+    "title": "Real time Fully Automated Internal Layer Segmentation of Human Retina in Optical Coherence Tomography Images",
+    "authors": [
+      "Department of Nuclear Energy Convergence, Kyungil University, Gyeongsan-si, Gyeongbuk, Republic of Korea.",
+      "Youngmin Han",
+      "Naresh Kumar Ravichandran",
+      "School of Electronics Engineering, College of IT Engineering, Kyungpook National University, 80 Daehak-ro, Bukgu, Daegu 41566, Republic of Korea.",
+      "Pilun Kim",
+      "Institute of Biomedical Engineering Research, Kyungpook National University, 680, Gukchaebosang-ro, Jung-gu, Daegu 41944, Republic of Korea.",
+      "Mansik Jeon",
+      "School of Electronics Engineering, College of IT Engineering, Kyungpook National University, 80 Daehak-ro, Bukgu, Daegu 41566, Republic of Korea",
+      "Jeehyun Kim",
+      "School of Electronics Engineering, College of IT Engineering, Kyungpook National University, 80 Daehak-ro, Bukgu, Daegu 41566, Republic of Korea."
+    ],
+    "venue": "International Journal of Engineering and Advanced Technology",
+    "volume": "9",
+    "issue": "3",
+    "pages": "1951-1957",
+    "doi": "10.35940/ijeat.c5632.029320",
+    "url": "https://doi.org/10.35940/ijeat.c5632.029320",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1109/access.2020.3031361",
+    "type": "journal",
+    "year": 2020,
+    "title": "Vision-Inspection-Synchronized Dual Optical Coherence Tomography for High-Resolution Real-Time Multidimensional Defect Tracking in Optical Thin Film Industry",
+    "authors": [
+      "Deokmin Jeon",
+      "Unsang Jung",
+      "Kibeom Park",
+      "Pilun Kim",
+      "Sangyeob Han",
+      "Hyosang Jeong",
+      "Ruchire Eranga Wijesinghe",
+      "Naresh Kumar Ravichandran",
+      "Jaeyul Lee",
+      "Youngmin Han",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "IEEE Access",
+    "volume": "8",
+    "issue": "",
+    "pages": "190700-190709",
+    "doi": "10.1109/access.2020.3031361",
+    "url": "https://doi.org/10.1109/access.2020.3031361",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1038/s41598-019-39670-9",
+    "type": "journal",
+    "year": 2019,
+    "title": "3-Dimensional characterization of cortical bone microdamage following placement of orthodontic microimplants using Optical Coherence Tomography",
+    "authors": [
+      "Hemanth Tumkur Lakshmikantha",
+      "Naresh Kumar Ravichandran",
+      "Mansik Jeon",
+      "Jeehyun Kim",
+      "Hyo-Sang Park"
+    ],
+    "venue": "Scientific Reports",
+    "volume": "9",
+    "issue": "1",
+    "pages": "3242",
+    "doi": "10.1038/s41598-019-39670-9",
+    "url": "https://doi.org/10.1038/s41598-019-39670-9",
+    "corresponding": false,
+    "cofirst": true,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1109/access.2019.2920146",
+    "type": "journal",
+    "year": 2019,
+    "title": "An Averaged Intensity Difference Detection Algorithm for Identification of Human Gingival Sulcus in Optical Coherence Tomography Images",
+    "authors": [
+      "Naresh Kumar Ravichandran",
+      "Hoseong Cho",
+      "Jaeyul Lee",
+      "Sangyeob Han",
+      "Ruchire Eranga Wijesinghe",
+      "Pilun Kim",
+      "Jae-Won Song",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "IEEE Access",
+    "volume": "7",
+    "issue": "",
+    "pages": "73076-73084",
+    "doi": "10.1109/access.2019.2920146",
+    "url": "https://doi.org/10.1109/access.2019.2920146",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1155/2019/8973825",
+    "type": "journal",
+    "year": 2019,
+    "title": "Analysis of Enamel Loss by Prophylaxis and Etching Treatment in Human Tooth Using Optical Coherence Tomography: An In Vitro Study",
+    "authors": [
+      "Naresh Kumar Ravichandran",
+      "Hemanth Tumkur Lakshmikantha",
+      "Hyo-sang Park",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Journal of Healthcare Engineering",
+    "volume": "2019",
+    "issue": "",
+    "pages": "1-9",
+    "doi": "10.1155/2019/8973825",
+    "url": "https://doi.org/10.1155/2019/8973825",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.3390/s20010064",
+    "type": "journal",
+    "year": 2019,
+    "title": "In Situ Characterization of Micro-Vibration in Natural Latex Membrane Resembling Tympanic Membrane Functionally Using Optical Doppler Tomography",
+    "authors": [
+      "Daewoon Seong",
+      "Jaehwan Kwon",
+      "Deokmin Jeon",
+      "Ruchire Eranga Wijesinghe",
+      "Jaeyul Lee",
+      "Naresh Kumar Ravichandran",
+      "Sangyeob Han",
+      "Junsoo Lee",
+      "Pilun Kim",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Sensors",
+    "volume": "20",
+    "issue": "1",
+    "pages": "64",
+    "doi": "10.3390/s20010064",
+    "url": "https://doi.org/10.3390/s20010064",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1109/access.2019.2946388",
+    "type": "journal",
+    "year": 2019,
+    "title": "On-Field In situ Inspection for Marssonina Coronaria Infected Apple Blotch Based on Non-Invasive Bio-Photonic Imaging Module",
+    "authors": [
+      "Junsoo Lee",
+      "Seung-Yeol Lee",
+      "Ruchire Eranga Wijesinghe",
+      "Naresh Kumar Ravichandran",
+      "Sangyeob Han",
+      "Pilun Kim",
+      "Mansik Jeon",
+      "Hee-Young Jung",
+      "Jeehyun Kim"
+    ],
+    "venue": "IEEE Access",
+    "volume": "7",
+    "issue": "",
+    "pages": "148684-148691",
+    "doi": "10.1109/access.2019.2946388",
+    "url": "https://doi.org/10.1109/access.2019.2946388",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1631/jzus.b1700612",
+    "type": "journal",
+    "year": 2018,
+    "title": "Assessment of cortical bone microdamage following insertion of microimplants using optical coherence tomography: a preliminary study",
+    "authors": [
+      "Hemanth Tumkur Lakshmikantha",
+      "Naresh Kumar Ravichandran",
+      "Mansik Jeon",
+      "Jeehyun Kim",
+      "Hyo-sang Park"
+    ],
+    "venue": "Journal of Zhejiang University-SCIENCE B",
+    "volume": "19",
+    "issue": "11",
+    "pages": "818-828",
+    "doi": "10.1631/jzus.b1700612",
+    "url": "https://doi.org/10.1631/jzus.b1700612",
+    "corresponding": false,
+    "cofirst": true,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1038/s41598-018-33791-3",
+    "type": "journal",
+    "year": 2018,
+    "title": "Biophotonic approach for the characterization of initial bitter-rot progression on apple specimens using optical coherence tomography assessments",
+    "authors": [
+      "Ruchire Eranga Wijesinghe",
+      "Seung-Yeol Lee",
+      "Naresh Kumar Ravichandran",
+      "Muhammad Faizan Shirazi",
+      "Pilun Kim",
+      "Hee-Young Jung",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Scientific Reports",
+    "volume": "8",
+    "issue": "1",
+    "pages": "15816",
+    "doi": "10.1038/s41598-018-33791-3",
+    "url": "https://doi.org/10.1038/s41598-018-33791-3",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1109/tencon.2018.8650388",
+    "type": "conference",
+    "year": 2018,
+    "title": "Enamel loss by prophylaxis and etching treatment in human tooth analyzed using optical coherence tomography- An in vitro study",
+    "authors": [
+      "Naresh Kumar Ravichandran",
+      "Hemanth Tumkur Lakshmikantha",
+      "Pilun Kim",
+      "Sungjo Park",
+      "Mansik Jeon",
+      "Hyo-sang Park",
+      "Jeehyun Kim"
+    ],
+    "venue": "TENCON 2018 - 2018 IEEE Region 10 Conference",
+    "volume": "",
+    "issue": "",
+    "pages": "0903-0906",
+    "doi": "10.1109/tencon.2018.8650388",
+    "url": "https://doi.org/10.1109/tencon.2018.8650388",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1016/j.infrared.2018.10.004",
+    "type": "journal",
+    "year": 2018,
+    "title": "Handheld-probe-based optical Doppler tomography for blood flow imaging",
+    "authors": [
+      "Deokmin Jeon",
+      "Naresh Kumar Ravichandran",
+      "Unsang Jung",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Infrared Physics & Technology",
+    "volume": "95",
+    "issue": "",
+    "pages": "183-188",
+    "doi": "10.1016/j.infrared.2018.10.004",
+    "url": "https://doi.org/10.1016/j.infrared.2018.10.004",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.3390/s18082500",
+    "type": "journal",
+    "year": 2018,
+    "title": "Non-Destructive Classification of Diversely Stained Capsicum annuum Seed Specimens of Different Cultivars Using Near-Infrared Imaging Based Optical Intensity Detection",
+    "authors": [
+      "Jyothsna Konkada Manattayil",
+      "Naresh Kumar Ravichandran",
+      "Ruchire Eranga Wijesinghe",
+      "Muhammad Faizan Shirazi",
+      "Seung-Yeol Lee",
+      "Pilun Kim",
+      "Hee-Young Jung",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Sensors",
+    "volume": "18",
+    "issue": "8",
+    "pages": "2500",
+    "doi": "10.3390/s18082500",
+    "url": "https://doi.org/10.3390/s18082500",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1109/eecsi.2018.8752659",
+    "type": "conference",
+    "year": 2018,
+    "title": "OCT for non-destructive examination of the internal biological structures of mosquito specimen",
+    "authors": [
+      "Naresh Kumar Ravichandran",
+      "Deokmin Jeon",
+      "Junsoo Lee",
+      "Jaeseok Park",
+      "Byoung-Ju Yun",
+      "Sangbong Lee",
+      "Pilun Kim",
+      "Kwang Shik Choi",
+      "Hee-Young Jung",
+      "Byeonggyu Jeon",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "2018 5th International Conference on Electrical Engineering, Computer Science and Informatics (EECSI)",
+    "volume": "",
+    "issue": "",
+    "pages": "436-439",
+    "doi": "10.1109/eecsi.2018.8752659",
+    "url": "https://doi.org/10.1109/eecsi.2018.8752659",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1016/j.optlaseng.2018.05.013",
+    "type": "journal",
+    "year": 2018,
+    "title": "Quality assessment of the optical thin films using line field spectral domain optical coherence tomography",
+    "authors": [
+      "Muhammad Faizan Shirazi",
+      "Ruchire Eranga Wijesinghe",
+      "Naresh Kumar Ravichandran",
+      "Pilun Kim",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Optics and Lasers in Engineering",
+    "volume": "110",
+    "issue": "",
+    "pages": "47-53",
+    "doi": "10.1016/j.optlaseng.2018.05.013",
+    "url": "https://doi.org/10.1016/j.optlaseng.2018.05.013",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1117/12.2269664",
+    "type": "conference",
+    "year": 2017,
+    "title": "Application of wearable optical coherence tomography (OCT) and loop-mediated isothermal amplification (LAMP) techniques for in situ real-time field inspection of apple Marssonina blotch disease",
+    "authors": [
+      "Ruchire Eranga Wijesinghe",
+      "Seung-Yeol Lee",
+      "Naresh Kumar Ravichandran",
+      "Muhammad Faizan Shirazi",
+      "Sangyeop Han",
+      "Hyosang Jeong",
+      "Pilun Kim",
+      "Hee-Young Jung",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "SPIE Proceedings",
+    "volume": "10251",
+    "issue": "",
+    "pages": "102511H",
+    "doi": "10.1117/12.2269664",
+    "url": "https://doi.org/10.1117/12.2269664",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1007/s10043-016-0276-9",
+    "type": "journal",
+    "year": 2017,
+    "title": "Bio-photonic detection method for morphological analysis of anthracnose disease and physiological disorders of Diospyros kaki",
+    "authors": [
+      "Ruchire Eranga Wijesinghe",
+      "Seung-Yeol Lee",
+      "Naresh Kumar Ravichandran",
+      "Muhammad Faizan Shirazi",
+      "Byungin Moon",
+      "Hee-Young Jung",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Optical Review",
+    "volume": "24",
+    "issue": "2",
+    "pages": "199-205",
+    "doi": "10.1007/s10043-016-0276-9",
+    "url": "https://doi.org/10.1007/s10043-016-0276-9",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.17219/dmp/79134",
+    "type": "journal",
+    "year": 2017,
+    "title": "Current trends and clinical applications of optical coherence tomography in orthodontics: A literature review",
+    "authors": [
+      "Hemanth Tumkur Lakshmikantha",
+      "Naresh Kumar Ravichandran",
+      "Hyo-Sang Park"
+    ],
+    "venue": "Dental and Medical Problems",
+    "volume": "54",
+    "issue": "4",
+    "pages": "409-415",
+    "doi": "10.17219/dmp/79134",
+    "url": "https://doi.org/10.17219/dmp/79134",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1117/12.2269448",
+    "type": "conference",
+    "year": 2017,
+    "title": "Dual illumination for cornea and retina imaging using spectral domain optical coherence tomography",
+    "authors": [
+      "Muhammad Faizan Shirazi",
+      "Ruchire Eranga Wijesinghe",
+      "Naresh Kumar Ravichandran",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "SPIE Proceedings",
+    "volume": "10251",
+    "issue": "",
+    "pages": "102511G",
+    "doi": "10.1117/12.2269448",
+    "url": "https://doi.org/10.1117/12.2269448",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1007/s10043-016-0288-5",
+    "type": "journal",
+    "year": 2017,
+    "title": "Dual-path handheld system for cornea and retina imaging using optical coherence tomography",
+    "authors": [
+      "Muhammad Faizan Shirazi",
+      "Ruchire Eranga Wijesinghe",
+      "Naresh Kumar Ravichandran",
+      "Pilun Kim",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Optical Review",
+    "volume": "24",
+    "issue": "2",
+    "pages": "219-225",
+    "doi": "10.1007/s10043-016-0288-5",
+    "url": "https://doi.org/10.1007/s10043-016-0288-5",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.3390/s17122887",
+    "type": "journal",
+    "year": 2017,
+    "title": "In Vivo Non-Destructive Monitoring of Capsicum Annuum Seed Growth with Diverse NaCl Concentrations Using Optical Detection Technique",
+    "authors": [
+      "Naresh Kumar Ravichandran",
+      "Ruchire Eranga Wijesinghe",
+      "Muhammad Faizan Shirazi",
+      "Jeehyun Kim",
+      "Hee-Young Jung",
+      "Mansik Jeon",
+      "Seung-Yeol Lee"
+    ],
+    "venue": "Sensors",
+    "volume": "17",
+    "issue": "12",
+    "pages": "2887",
+    "doi": "10.3390/s17122887",
+    "url": "https://doi.org/10.3390/s17122887",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.3390/s17081897",
+    "type": "journal",
+    "year": 2017,
+    "title": "Non-Destructive Analysis of the Internal Anatomical Structures of Mosquito Specimens Using Optical Coherence Tomography",
+    "authors": [
+      "Naresh Ravichandran",
+      "Ruchire Wijesinghe",
+      "Seung-Yeol Lee",
+      "Kwang Choi",
+      "Mansik Jeon",
+      "Hee-Young Jung",
+      "Jeehyun Kim"
+    ],
+    "venue": "Sensors",
+    "volume": "17",
+    "issue": "8",
+    "pages": "1897",
+    "doi": "10.3390/s17081897",
+    "url": "https://doi.org/10.3390/s17081897",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1364/ao.56.00d108",
+    "type": "journal",
+    "year": 2017,
+    "title": "Optical coherence tomography-integrated, wearable (backpack-type), compact diagnostic imaging modality for in situ leaf quality assessment",
+    "authors": [
+      "Ruchire Eranga Wijesinghe",
+      "Seung-Yeol Lee",
+      "Naresh Kumar Ravichandran",
+      "Sangyeop Han",
+      "Hyosang Jeong",
+      "Youngmin Han",
+      "Hee-Young Jung",
+      "Pilun Kim",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Applied Optics",
+    "volume": "56",
+    "issue": "9",
+    "pages": "D108",
+    "doi": "10.1364/ao.56.00d108",
+    "url": "https://doi.org/10.1364/ao.56.00d108",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "ijaer-2017-pleurotus",
+    "type": "journal",
+    "year": 2017,
+    "title": "Optical inspection and monitoring of moisture content in Pleurotus eryngii during storage life by refrigeration",
+    "authors": [
+      "Naresh Kumar Ravichandran",
+      "Seung-Yeol Lee",
+      "Hee-Young Jung",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "International Journal of Applied Engineering Research",
+    "volume": "12",
+    "issue": "15",
+    "pages": "5011-5015",
+    "doi": "",
+    "url": "https://www.ripublication.com/ijaer17/ijaerv12n15_%20%2840%29.pdf",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "cv",
+      "gsite"
+    ]
+  },
+  {
+    "id": "10.1117/12.2267395",
+    "type": "conference",
+    "year": 2017,
+    "title": "Optical thin film inspection using parallel spectral domain optical coherence tomography",
+    "authors": [
+      "Muhammad Faizan Shirazi",
+      "Ruchire Eranga Wijesinghe",
+      "Naresh Kumar Ravichandran",
+      "Pilun Kim",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "SPIE Proceedings",
+    "volume": "10323",
+    "issue": "",
+    "pages": "103238V",
+    "doi": "10.1117/12.2267395",
+    "url": "https://doi.org/10.1117/12.2267395",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1117/12.2267457",
+    "type": "conference",
+    "year": 2017,
+    "title": "Swept source optical coherence tomography for in vivo growth monitoring of capsicum annuum seeds treated with different NaCl concentrations",
+    "authors": [
+      "Naresh Kumar Ravichandran",
+      "Ruchire Eranga Wijesinghe",
+      "Seung-Yeol Lee",
+      "Muhammad Faizan Shirazi",
+      "Kibeom Park",
+      "Hee-Young Jung",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "SPIE Proceedings",
+    "volume": "10323",
+    "issue": "",
+    "pages": "1032356",
+    "doi": "10.1117/12.2267457",
+    "url": "https://doi.org/10.1117/12.2267457",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1117/1.jbo.21.7.076005",
+    "type": "journal",
+    "year": 2016,
+    "title": "Depth enhancement in spectral domain optical coherence tomography using bidirectional imaging modality with a single spectrometer",
+    "authors": [
+      "Naresh Kumar Ravichandran",
+      "Ruchire Eranga Wijesinghe",
+      "Muhammad Faizan Shirazi",
+      "Kibeom Park",
+      "Mansik Jeon",
+      "Woonggyu Jung",
+      "Jeehyun Kim"
+    ],
+    "venue": "Journal of Biomedical Optics",
+    "volume": "21",
+    "issue": "07",
+    "pages": "1-9",
+    "doi": "10.1117/1.jbo.21.7.076005",
+    "url": "https://doi.org/10.1117/1.jbo.21.7.076005",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "10.1155/2016/1093734",
+    "type": "journal",
+    "year": 2016,
+    "title": "In Vivo Monitoring on Growth and Spread of Gray Leaf Spot Disease in Capsicum annuum Leaf Using Spectral Domain Optical Coherence Tomography",
+    "authors": [
+      "Naresh Kumar Ravichandran",
+      "Ruchire Eranga Wijesinghe",
+      "Muhammad Faizan Shirazi",
+      "Kibeom Park",
+      "Seung-Yeol Lee",
+      "Hee-Young Jung",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "Journal of Spectroscopy",
+    "volume": "2016",
+    "issue": "",
+    "pages": "1-6",
+    "doi": "10.1155/2016/1093734",
+    "url": "https://doi.org/10.1155/2016/1093734",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "crossref",
+      "cv"
+    ]
+  },
+  {
+    "id": "ijaer-2016-pear-scab",
+    "type": "journal",
+    "year": 2016,
+    "title": "Optical screening of Venturia nashicola caused Pyrus pyrifolia (Asian pear) scab using optical coherence tomography",
+    "authors": [
+      "Ruchire Eranga Wijesinghe",
+      "Seung-Yeol Lee",
+      "Naresh Kumar Ravichandran",
+      "Muhammad Faizan Shirazi",
+      "Pilun Kim",
+      "Hee-Young Jung",
+      "Mansik Jeon",
+      "Jeehyun Kim"
+    ],
+    "venue": "International Journal of Applied Engineering Research",
+    "volume": "11",
+    "issue": "12",
+    "pages": "7728-7731",
+    "doi": "",
+    "url": "https://www.researchgate.net/publication/305184695",
+    "corresponding": false,
+    "cofirst": false,
+    "sources": [
+      "orcid",
+      "cv",
+      "gsite"
+    ]
+  }
+]

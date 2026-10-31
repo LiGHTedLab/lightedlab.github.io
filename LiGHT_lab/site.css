@@ -1,0 +1,70 @@
+/* LiGHT lab theme: deep-night hero with a spectral accent. */
+:root {
+  --accent: #4f46e5;
+  --accent-2: #06b6d4;
+  --font-head: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --spectrum: linear-gradient(90deg, #8b5cf6, #3b82f6 22%, #06b6d4 40%, #22c55e 56%, #eab308 72%, #f97316 86%, #ef4444);
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --accent: #818cf8; } }
+:root[data-theme="dark"] { --accent: #818cf8; }
+
+.brand-logo { height: 40px; width: auto; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Lab nameboard: full banner on wide screens, logo + text on phones */
+.nameboard { display: block; margin: 22px 0 26px; max-width: 1100px; }
+.nameboard img {
+  width: 100%; height: auto; border-radius: 18px;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 6%, #000 94%, transparent 100%);
+          mask-image: linear-gradient(90deg, transparent 0, #000 6%, #000 94%, transparent 100%);
+}
+.mobile-brand { display: none; }
+.mobile-brand img { width: min(300px, 82%); height: auto; margin: 14px 0 18px; filter: drop-shadow(0 8px 28px rgba(139, 92, 246, .35)); }
+@media (max-width: 700px) {
+  .nameboard { display: none; }
+  .mobile-brand { display: block; }
+}
+.brand-mark { font-family: var(--font-head); font-size: 22px; letter-spacing: -.02em; }
+.brand small { font-weight: 500; color: var(--muted); font-size: 13px; font-family: var(--font-body); }
+@media (max-width: 520px) { .brand small { display: none; } }
+
+/* ---------- Hero ---------- */
+.hero {
+  position: relative; overflow: hidden; color: #e8ecff;
+  background: radial-gradient(1200px 600px at 80% -10%, #2a1d6b 0%, transparent 60%),
+              radial-gradient(900px 500px at -10% 110%, #0b3a4f 0%, transparent 60%), #060918;
+  padding: 56px 0 96px;
+}
+.hero .container { position: relative; z-index: 2; }
+.hero-art { position: absolute; inset: 0; z-index: 1; opacity: .9; }
+.hero-art svg { width: 100%; height: 100%; }
+.hero-art .w { fill: none; stroke-width: 1.6; stroke-linecap: round; opacity: .75; animation: drift 14s ease-in-out infinite alternate; }
+.hero-art .w:nth-child(2n) { animation-duration: 18s; animation-direction: alternate-reverse; }
+@keyframes drift { from { transform: translateX(-40px); } to { transform: translateX(40px); } }
+.hero .kicker { display: inline-flex; align-items: center; gap: 10px; font-size: 13px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: #a5b4fc; }
+.hero .kicker::before { content: ""; width: 34px; height: 2px; background: var(--spectrum); border-radius: 2px; }
+.hero h1 { color: #fff; font-size: clamp(64px, 12vw, 148px); line-height: .9; letter-spacing: -.045em; margin: 18px 0 10px; font-weight: 700; }
+.hero .full { font-family: var(--font-head); font-size: clamp(20px, 2.6vw, 30px); color: #fff; font-weight: 500; margin-bottom: 6px; }
+.hero .motto { color: #a5b4fc; font-size: clamp(15px, 1.6vw, 18px); margin-bottom: 26px; }
+.hero .lede { color: #c7cdea; max-width: 62ch; }
+.hero .btn-primary { background: #fff; color: #111436; }
+.hero .btn-ghost { color: #e8ecff; border-color: rgba(255, 255, 255, .35); }
+.hero-meta { margin-top: 44px; display: flex; flex-wrap: wrap; gap: 10px 26px; color: #9aa3cc; font-size: 14px; }
+.hero-meta b { color: #fff; font-weight: 600; }
+@media (max-width: 600px) { .hero { padding: 72px 0 64px; } .hero .lede { font-size: 16px; } }
+.spectrum-bar { height: 4px; background: var(--spectrum); }
+
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; padding: 38px 0; }
+@media (max-width: 760px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.stats .num { background: var(--spectrum); -webkit-background-clip: text; background-clip: text; color: transparent; }
+
+.pi-card { display: grid; grid-template-columns: 180px 1fr; gap: 32px; align-items: center; padding: 32px; }
+.pi-card .avatar { width: 180px; height: 180px; font-size: 54px; margin: 0; }
+@media (max-width: 680px) { .pi-card { grid-template-columns: 1fr; text-align: center; } .pi-card .avatar { margin: 0 auto; width: 140px; height: 140px; } .pi-card .profile-links { justify-content: center; } }
+.pi-card h3 { font-size: 24px; margin-bottom: 2px; }
+.pi-card .role { color: var(--accent); font-weight: 600; margin-bottom: 12px; }
+
+.join { background: linear-gradient(135deg, #111436, #1d1650 60%, #0b3a4f); color: #e8ecff; border: 0; }
+.join h3 { color: #fff; }
+.join p { color: #c7cdea; }
+.join .btn-primary { background: #fff; color: #111436; }

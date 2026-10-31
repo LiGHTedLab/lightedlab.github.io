@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <!-- Stylised OCT B-scan: layered tissue with speckle, one highlighted A-line -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070a14"/><stop offset="1" stop-color="#0d1226"/>
+    </linearGradient>
+    <filter id="speckle" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9 0.35" numOctaves="2" seed="7" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1.9 -0.75"/>
+      <feComposite in2="SourceGraphic" operator="in"/>
+    </filter>
+    <linearGradient id="l1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff6e8" stop-opacity=".95"/><stop offset="1" stop-color="#ffd9a8" stop-opacity=".55"/></linearGradient>
+    <linearGradient id="l2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3b27a" stop-opacity=".55"/><stop offset="1" stop-color="#c46d4a" stop-opacity=".25"/></linearGradient>
+    <linearGradient id="l3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9824f" stop-opacity=".45"/><stop offset="1" stop-color="#5a2a3a" stop-opacity=".05"/></linearGradient>
+    <linearGradient id="aline" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7dd3fc"/><stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#bg)"/>
+  <g filter="url(#speckle)">
+    <path d="M0 120 C120 92 220 140 330 118 S540 92 640 116 V150 C540 128 440 160 330 150 S120 128 0 154 Z" fill="url(#l1)"/>
+    <path d="M0 154 C120 128 220 162 330 150 S540 128 640 150 V230 C520 214 430 246 320 232 S110 210 0 238 Z" fill="url(#l2)"/>
+    <path d="M0 238 C110 210 220 244 320 232 S520 214 640 230 V400 H0 Z" fill="url(#l3)"/>
+    <ellipse cx="420" cy="272" rx="46" ry="18" fill="#0d1226" opacity=".9"/>
+    <ellipse cx="190" cy="300" rx="28" ry="11" fill="#0d1226" opacity=".85"/>
+  </g>
+  <path d="M0 120 C120 92 220 140 330 118 S540 92 640 116" fill="none" stroke="#fff" stroke-opacity=".85" stroke-width="2"/>
+  <rect x="468" y="40" width="3" height="340" fill="url(#aline)"/>
+  <path d="M469.5 18 v22" stroke="#7dd3fc" stroke-width="3"/>
+  <g fill="none" stroke="#7dd3fc" stroke-opacity=".7" stroke-width="1.5">
+    <path d="M490 110 l18 0 l6 -26 l6 52 l6 -40 l6 14 l20 0"/>
+    <path d="M490 190 l26 0 l5 -14 l5 26 l5 -12 l30 0"/>
+  </g>
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="13" fill="#cbd5e1" opacity=".8">
+    <text x="24" y="34" font-weight="600" letter-spacing="2">B-SCAN</text>
+    <text x="24" y="380">depth ↓</text>
+    <text x="560" y="380">lateral →</text>
+  </g>
+</svg>

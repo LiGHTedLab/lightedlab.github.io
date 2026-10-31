@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <!-- Concept art: label-free OCT of oral mucosa revealing a suspicious region (no device detail) -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0820"/><stop offset="1" stop-color="#140b2e"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset="1" stop-color="#22d3ee" stop-opacity=".9"/></linearGradient>
+    <linearGradient id="epi" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fda4af"/><stop offset="1" stop-color="#e11d48" stop-opacity=".55"/></linearGradient>
+    <linearGradient id="lp" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#be185d" stop-opacity=".55"/><stop offset="1" stop-color="#3b0764" stop-opacity=".2"/></linearGradient>
+    <filter id="spk"><feTurbulence type="fractalNoise" baseFrequency="0.85 0.3" numOctaves="2" seed="5"/><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1.7 -0.7"/><feComposite in2="SourceGraphic" operator="in"/></filter>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#f59e0b" stop-opacity=".9"/><stop offset="1" stop-color="#f59e0b" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#bg)"/>
+  <g transform="translate(40 150)">
+    <path d="M0 20 C90 0 170 34 280 18 S470 0 560 20 V70 C460 52 380 84 280 70 S90 50 0 72 Z" fill="url(#epi)"/>
+    <path d="M0 64 C90 42 180 76 280 62 S460 44 560 62 V220 H0 Z" fill="url(#lp)"/>
+    <g filter="url(#spk)"><path d="M0 20 C90 0 170 34 280 18 S470 0 560 20 V220 H0 Z" fill="#fff" opacity=".55"/></g>
+    <path d="M0 72 C90 50 180 84 280 70 S460 52 560 70" stroke="#fbcfe8" stroke-width="2" fill="none" stroke-dasharray="6 5" opacity=".8"/>
+    <ellipse cx="350" cy="78" rx="70" ry="38" fill="url(#glow)"/>
+    <path d="M300 66 C320 92 340 70 352 98 S384 80 400 70" stroke="#fbbf24" stroke-width="3" fill="none"/>
+    <circle cx="350" cy="80" r="58" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="4 6"/>
+  </g>
+  <rect x="346" y="24" width="8" height="150" fill="url(#beam)"/>
+  <g stroke="#22d3ee" stroke-opacity=".5" fill="none"><path d="M330 40 l40 0 M334 56 l32 0 M338 72 l24 0"/></g>
+  <g font-family="Inter, Segoe UI, sans-serif" fill="#e2e8f0">
+    <text x="28" y="40" font-size="13" font-weight="600" letter-spacing="2" opacity=".85">LABEL-FREE OCT · ORAL MUCOSA</text>
+    <text x="28" y="372" font-size="12.5" opacity=".7">epithelium · basement membrane · lamina propria</text>
+    <text x="436" y="134" font-size="12.5" fill="#fbbf24">early lesion?</text>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <!-- Concept art: multimodal optical biopsy = structure (depth) + spectrum (molecular), fused into an early-detection map. No device detail. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b1f"/><stop offset="1" stop-color="#160a2c"/></linearGradient>
+    <linearGradient id="spec" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/><stop offset=".2" stop-color="#3b82f6"/><stop offset=".4" stop-color="#06b6d4"/>
+      <stop offset=".55" stop-color="#22c55e"/><stop offset=".7" stop-color="#eab308"/><stop offset=".85" stop-color="#f97316"/><stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#d946ef"/><stop offset="1" stop-color="#f97316"/></linearGradient>
+    <radialGradient id="hot" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#f43f5e" stop-opacity=".95"/><stop offset=".6" stop-color="#f59e0b" stop-opacity=".45"/><stop offset="1" stop-color="#f59e0b" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#bg)"/>
+  <!-- incoming light -->
+  <path d="M-10 200 C30 150 60 250 100 200 S170 150 210 200" stroke="url(#wave)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M210 200 L250 200" stroke="#f9a8d4" stroke-width="3"/>
+  <!-- two information channels -->
+  <path d="M250 200 C280 200 290 120 330 120" stroke="#22d3ee" stroke-width="2.5" fill="none"/>
+  <path d="M250 200 C280 200 290 280 330 280" stroke="#eab308" stroke-width="2.5" fill="none"/>
+  <!-- structure: depth layers -->
+  <g transform="translate(330 78)">
+    <rect width="130" height="84" rx="10" fill="#0f172a" stroke="#22d3ee" stroke-opacity=".6"/>
+    <path d="M10 26 C40 18 80 32 120 22" stroke="#e0f2fe" stroke-width="3" fill="none"/>
+    <path d="M10 44 C40 38 80 52 120 42" stroke="#7dd3fc" stroke-width="2.5" fill="none"/>
+    <path d="M10 62 C40 58 80 70 120 60" stroke="#38bdf8" stroke-width="2" fill="none" opacity=".7"/>
+    <text x="65" y="102" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#a5f3fc">structure (depth)</text>
+  </g>
+  <!-- chemistry: spectrum -->
+  <g transform="translate(330 238)">
+    <rect width="130" height="84" rx="10" fill="#0f172a" stroke="#eab308" stroke-opacity=".6"/>
+    <rect x="10" y="58" width="110" height="8" rx="4" fill="url(#spec)"/>
+    <path d="M10 50 C26 46 34 18 52 16 S78 44 92 34 S112 12 120 20" stroke="#fef08a" stroke-width="2.5" fill="none"/>
+    <text x="65" y="102" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#fde68a">chemistry (spectrum)</text>
+  </g>
+  <!-- fused early-detection map -->
+  <path d="M460 120 C500 120 500 200 530 200 M460 280 C500 280 500 200 530 200" stroke="#e879f9" stroke-width="2.5" fill="none"/>
+  <g transform="translate(530 150)">
+    <circle cx="44" cy="50" r="46" fill="#1e1b4b" stroke="#e879f9" stroke-width="2"/>
+    <circle cx="56" cy="40" r="22" fill="url(#hot)"/>
+    <path d="M24 72 l10 -10 M30 30 l8 6" stroke="#c4b5fd" stroke-width="2" opacity=".6"/>
+  </g>
+  <g font-family="Inter, Segoe UI, sans-serif" fill="#e2e8f0">
+    <text x="28" y="40" font-size="13" font-weight="600" letter-spacing="2" opacity=".85">NIDAN · NON-INVASIVE OPTICAL BIOPSY</text>
+    <text x="520" y="268" font-size="12.5" fill="#f9a8d4">early detection</text>
+    <text x="28" y="372" font-size="12.5" opacity=".7">Concept: fusing structural and spectral optical contrast for oral pathology</text>
+  </g>
+</svg>

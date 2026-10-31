@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <!-- Stylised non-destructive inspection: multilayer stack with a buried defect, plus a leaf -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#06121a"/><stop offset="1" stop-color="#0b1a24"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset="1" stop-color="#22d3ee" stop-opacity=".9"/></linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#86efac"/><stop offset="1" stop-color="#15803d"/></linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#22d3ee" stroke-opacity=".07"/></pattern>
+  </defs>
+  <rect width="640" height="400" fill="url(#bg)"/>
+  <rect width="640" height="400" fill="url(#grid)"/>
+  <g transform="translate(40 150) skewX(-18)">
+    <rect x="60" y="0" width="330" height="22" fill="#94a3b8" opacity=".9"/>
+    <rect x="60" y="22" width="330" height="10" fill="#38bdf8" opacity=".7"/>
+    <rect x="60" y="32" width="330" height="26" fill="#64748b" opacity=".9"/>
+    <rect x="60" y="58" width="330" height="8" fill="#a78bfa" opacity=".7"/>
+    <rect x="60" y="66" width="330" height="40" fill="#334155"/>
+    <ellipse cx="250" cy="45" rx="16" ry="5" fill="#f43f5e"/>
+    <ellipse cx="250" cy="45" rx="28" ry="10" fill="none" stroke="#f43f5e" stroke-opacity=".5" stroke-dasharray="3 3"/>
+  </g>
+  <rect x="262" y="30" width="6" height="135" fill="url(#beam)"/>
+  <g stroke="#22d3ee" stroke-opacity=".35"><path d="M140 30 v120M190 30 v120M330 30 v120M380 30 v120" stroke-dasharray="2 6"/></g>
+  <g transform="translate(470 210) rotate(-28)">
+    <path d="M0 0 C40 -70 120 -70 150 0 C120 70 40 70 0 0 Z" fill="url(#leaf)" opacity=".9"/>
+    <path d="M0 0 H150 M40 0 l22 -24 M40 0 l22 24 M80 0 l20 -26 M80 0 l20 26 M115 0 l14 -18 M115 0 l14 18" stroke="#052e16" stroke-opacity=".5" stroke-width="2" fill="none"/>
+    <circle cx="96" cy="-18" r="9" fill="#a16207" opacity=".8"/>
+  </g>
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="13" fill="#cbd5e1" opacity=".8">
+    <text x="24" y="34" font-weight="600" letter-spacing="2">NDT / NDE</text>
+    <text x="300" y="300">sub-surface defect</text>
+  </g>
+</svg>

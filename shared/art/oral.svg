@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <!-- Stylised tooth cross-section probed by a light beam (generic, no device detail) -->
+  <defs>
+    <radialGradient id="bg" cx="0.3" cy="0.2" r="1">
+      <stop offset="0" stop-color="#1b1640"/><stop offset="1" stop-color="#070a14"/>
+    </radialGradient>
+    <linearGradient id="enamel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#cbd5e1"/></linearGradient>
+    <linearGradient id="dentin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fde7c7"/><stop offset="1" stop-color="#e7b98a"/></linearGradient>
+    <linearGradient id="gum" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fb7185" stop-opacity=".85"/><stop offset="1" stop-color="#9f1239" stop-opacity=".6"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0"/><stop offset=".55" stop-color="#60a5fa" stop-opacity=".55"/><stop offset="1" stop-color="#34d399" stop-opacity=".95"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#bg)"/>
+  <path d="M0 300 C90 270 170 262 230 282 C290 300 350 300 410 282 C470 262 560 268 640 296 V400 H0 Z" fill="url(#gum)"/>
+  <path d="M242 96 C262 54 302 58 320 82 C338 58 378 54 398 96 C420 144 410 210 396 262 C388 300 380 352 360 360 C344 366 338 320 330 290 C326 276 314 276 310 290 C302 320 296 366 280 360 C260 352 252 300 244 262 C230 210 220 144 242 96 Z" fill="url(#enamel)"/>
+  <path d="M262 112 C276 86 300 90 320 108 C340 90 364 86 378 112 C394 150 386 206 374 252 C368 280 360 320 350 330 C342 300 334 262 320 262 C306 262 298 300 290 330 C280 320 272 280 266 252 C254 206 246 150 262 112 Z" fill="url(#dentin)"/>
+  <path d="M300 140 C306 124 334 124 340 140 C346 170 338 220 330 250 C326 262 314 262 310 250 C302 220 294 170 300 140 Z" fill="#fb7185" opacity=".55"/>
+  <polygon points="40,20 70,20 296,150 286,162" fill="url(#beam)"/>
+  <circle cx="291" cy="156" r="10" fill="#34d399" opacity=".35"/>
+  <circle cx="291" cy="156" r="4" fill="#ecfeff"/>
+  <g stroke="#34d399" stroke-opacity=".55" fill="none" stroke-width="1.5">
+    <path d="M300 160 q20 14 44 10"/><path d="M302 168 q24 20 56 14"/>
+  </g>
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="13" fill="#cbd5e1" opacity=".85">
+    <text x="440" y="120">enamel</text><path d="M436 116 h-34" stroke="#cbd5e1" stroke-opacity=".5"/>
+    <text x="440" y="190">dentin</text><path d="M436 186 h-60" stroke="#cbd5e1" stroke-opacity=".5"/>
+    <text x="470" y="320">soft tissue</text>
+  </g>
+</svg>
