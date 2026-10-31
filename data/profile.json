@@ -1331,7 +1331,7 @@
   ],
   "research_note": "Results paraphrase each paper's abstract or conclusions. Figures come from the user's own papers (OLT 2024 and Sci Rep 2023 are CC BY 4.0) and from the graphical abstracts in the Google Site gallery. Confirm reuse terms for the APL (AIP), JBO (SPIE) and Applied Optics (Optica) figures.",
   "analytics": {
-    "goatcounter": "",
+    "goatcounter": "nareshr",
     "_note": "Set to your GoatCounter code (e.g. 'lightlab' for https://lightlab.goatcounter.com) to enable private visit tracking."
   }
 }
