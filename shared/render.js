@@ -60,16 +60,22 @@
   };
   const shortName = (k) => ({ "Portfolio (Google Sites)": "Portfolio", "IIT Madras faculty page": "IIT Madras" }[k] || k);
 
+  // Links shown on this page: the lab site omits the personal portfolio (Google Sites) link.
+  const pageLinks = () => {
+    const hide = document.body.dataset.page === "lab" ? ["Portfolio (Google Sites)"] : [];
+    return Object.entries(P.person.links).filter(([k]) => !hide.includes(k));
+  };
+
   R["profile-links"] = (el) => {
     el.classList.add("profile-links");
-    el.innerHTML = Object.entries(P.person.links)
+    el.innerHTML = pageLinks()
       .map(([k, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener" title="${esc(k)}">${badge(k, 18)}${esc(shortName(k))}</a>`)
       .join("");
   };
 
   // Floating "Connect" button (bottom-right) that expands into profile icons.
   function connectDock() {
-    const links = [["Email", "mailto:" + MAIL], ...Object.entries(P.person.links)];
+    const links = [["Email", "mailto:" + MAIL], ...pageLinks()];
     const d = document.createElement("div");
     d.className = "connect";
     d.innerHTML = `
