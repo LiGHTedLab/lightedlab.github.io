@@ -4,7 +4,7 @@
 
 Writes into deploy/:
   LiGHT_websites.zip   both sites in one folder: the lab site at the root, the personal
-                       site under /personal/. For Netlify Drop, Cloudflare Pages,
+                       site under /naresh/ (/personal/ redirects there). For Netlify Drop, Cloudflare Pages,
                        GitHub Pages, tiiny.host and similar hosts.
   site/                the same files, unzipped.
   single-file/         index.html (lab) and personal.html: each a self-contained page with
@@ -55,6 +55,21 @@ def single_file(site_dir, payload):
     return html
 
 
+PERSONAL_PATH = "naresh"  # personal site address: <site>/naresh/
+
+
+def redirect_page(target):
+    """A tiny page that forwards visitors (and search engines) to `target`."""
+    return f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Redirecting…</title>
+<meta http-equiv="refresh" content="0; url={target}">
+<link rel="canonical" href="{target}">
+<script>location.replace({target!r} + location.search + location.hash);</script>
+</head><body><p>This page has moved to <a href="{target}">{target}</a>.</p></body></html>
+"""
+
+
 def main():
     build.main()
     profile, pubs = build.load()
@@ -62,12 +77,15 @@ def main():
     if DEPLOY.exists():
         shutil.rmtree(DEPLOY)
 
-    # 1) Folder / zip: lab at the root, personal under /personal/
+    # 1) Folder / zip: lab at the root, personal under /naresh/
     site = DEPLOY / "site"
     shutil.copytree(LAB, site)
-    shutil.copytree(PERSONAL, site / "personal")
-    (site / "assets" / "data.js").write_text(build.make_payload(profile, pubs, {"personal": "personal/"}), encoding="utf-8")
-    (site / "personal" / "assets" / "data.js").write_text(build.make_payload(profile, pubs, {"lab": "../"}), encoding="utf-8")
+    shutil.copytree(PERSONAL, site / PERSONAL_PATH)
+    (site / "assets" / "data.js").write_text(build.make_payload(profile, pubs, {"personal": PERSONAL_PATH + "/"}), encoding="utf-8")
+    (site / PERSONAL_PATH / "assets" / "data.js").write_text(build.make_payload(profile, pubs, {"lab": "../"}), encoding="utf-8")
+    # The personal page used to live at /personal/; keep that address working.
+    (site / "personal").mkdir()
+    (site / "personal" / "index.html").write_text(redirect_page("../" + PERSONAL_PATH + "/"), encoding="utf-8")
     (site / ".nojekyll").write_text("")  # GitHub Pages: serve files as-is
     zpath = DEPLOY / "LiGHT_websites.zip"
     with zipfile.ZipFile(zpath, "w", zipfile.ZIP_DEFLATED) as z:

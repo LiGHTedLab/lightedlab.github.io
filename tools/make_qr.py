@@ -21,7 +21,7 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "qr"
 LOGO = ROOT / "shared" / "brand" / "logo.webp"
-BASE = (sys.argv[1] if len(sys.argv) > 1 else "https://nareshr9169.github.io").rstrip("/")
+BASE = (sys.argv[1] if len(sys.argv) > 1 else "https://lightlab.github.io").rstrip("/")
 
 # LiGHT letter colours (deeper shades of the logo hues, for scanner contrast)
 STOPS = [(0xD9, 0x1C, 0x3C), (0x8B, 0x2F, 0xD8), (0x1F, 0x6F, 0xE0), (0x07, 0x7F, 0xA3), (0x0A, 0x8A, 0x5E)]
@@ -179,7 +179,7 @@ def main():
     host = BASE.split("://", 1)[-1]
     sites = [
         ("lightlab", BASE + "/", "lab", host, "Department of Engineering Design · IIT Madras"),
-        ("naresh", BASE + "/personal/", "personal", host + "/personal", "Department of Engineering Design · IIT Madras"),
+        ("naresh", BASE + "/naresh/", "personal", host + "/naresh", "Department of Engineering Design · IIT Madras"),
     ]
     ok = True
     for name, url, kind, url_text, sub in sites:

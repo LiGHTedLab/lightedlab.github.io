@@ -51,10 +51,12 @@ Double-clicking `index.html` also works, because the data is a `.js` file rather
 
 ## Live site (GitHub Pages, automatic)
 
-This folder is the `<username>.github.io` repository. Every push to `main` runs `.github/workflows/deploy.yml`, which:
+This folder is the `lightlab/lightlab.github.io` repository (GitHub organisation `lightlab`).
+The original `nareshr9169/nareshr9169.github.io` repository now only forwards visitors to the new addresses. Every push to `main` runs `.github/workflows/deploy.yml`, which:
 1. refreshes the Google Scholar numbers (`tools/update_metrics.py` updates `data/metrics.json`),
 2. builds both sites (`tools/package.py`),
-3. publishes them: the lab site at `https://<username>.github.io/` and the personal site at `/personal/`.
+3. publishes them: the lab site at **https://lightlab.github.io/** and the personal site at **https://lightlab.github.io/naresh/**.
+   The older `/personal/` address forwards to `/naresh/`.
 
 The workflow also runs every Monday and tries to refresh citations, h-index and i10-index. Google Scholar often blocks
 GitHub's servers ("403 Forbidden"); when it does, the site keeps the last numbers. To refresh from your own PC, where
@@ -80,7 +82,7 @@ Never pushed (see `.gitignore`): `SOURCES.md` (it has local paths and private no
 
 | File | What it is | Use it for |
 |---|---|---|
-| `deploy/LiGHT_websites.zip` | Both sites in one folder: the lab site at the root, the personal site at `/personal/` (links between them already set) | Netlify Drop, Cloudflare Pages, GitHub Pages, any static host |
+| `deploy/LiGHT_websites.zip` | Both sites in one folder: the lab site at the root, the personal site at `/naresh/` (links between them already set) | Netlify Drop, Cloudflare Pages, GitHub Pages, any static host |
 | `deploy/site/` | The same, unzipped | Drag-and-drop hosts that want a folder |
 | `deploy/single-file/index.html` | Lab site as **one** self-contained file (styles, scripts, data, images inside) | Hosts that accept a single HTML file |
 | `deploy/single-file/personal.html` | Personal site as one file; links to `index.html` | Upload alongside the lab file, or on its own |
