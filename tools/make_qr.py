@@ -76,7 +76,7 @@ def qr_image(url, px=2000):
 
     # centre logo on a white oval (well within the 30 % error-correction budget)
     logo = Image.open(LOGO).convert("RGBA")
-    lw = int(size * 0.22)  # larger logos failed to decode for the shorter (smaller) lab code
+    lw = int(size * 0.20)  # larger logos failed to decode at small print sizes in testing
     logo = logo.resize((lw, int(lw * logo.height / logo.width)), Image.LANCZOS)
     cx, cy = size // 2, size // 2
     pw, ph = int(lw * 1.10), int(logo.height * 1.16)
@@ -98,7 +98,7 @@ def colored_light(d, xy, size, prefix="", suffix=""):
 
 
 def card(qr_img, title_kind, url_text, sub):
-    W, H = 1800, 2400
+    W, H = 1800, 2520
     c = Image.new("RGB", (W, H), (7, 9, 24))
     d = ImageDraw.Draw(c)
     for i in range(H):  # subtle vertical glow
@@ -139,7 +139,7 @@ def card(qr_img, title_kind, url_text, sub):
         d.text((x, y), " Lab", font=f2, fill=(199, 205, 234))
     y += 90
 
-    q = qr_img.resize((1240, 1240), Image.LANCZOS)
+    q = qr_img.resize((1380, 1380), Image.LANCZOS)
     panel = Image.new("RGB", (q.width + 80, q.height + 80), "white")
     mask = Image.new("L", panel.size, 0)
     ImageDraw.Draw(mask).rounded_rectangle((0, 0, *panel.size), radius=60, fill=255)
