@@ -1,9 +1,11 @@
 # Refresh Google Scholar metrics from this PC and publish them.
 # Google Scholar blocks GitHub's servers, so the weekly GitHub Action alone cannot always update the numbers.
 # Run this by hand (right-click > Run with PowerShell) or from Windows Task Scheduler.
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Continue"
 Set-Location (Split-Path -Parent $PSScriptRoot)
 $env:Path = [Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [Environment]::GetEnvironmentVariable("Path", "User")
+Start-Transcript -Path "tools\refresh_metrics.log" -Append | Out-Null
+Write-Host "=== $(Get-Date -Format 'yyyy-MM-dd HH:mm') ==="
 
 git pull --quiet --rebase
 python tools/update_metrics.py
@@ -16,3 +18,4 @@ if ($LASTEXITCODE -ne 0) {
 } else {
     Write-Host "Metrics unchanged."
 }
+Stop-Transcript | Out-Null
