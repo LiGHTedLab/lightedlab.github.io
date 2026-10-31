@@ -56,7 +56,10 @@ This folder is the `<username>.github.io` repository. Every push to `main` runs 
 2. builds both sites (`tools/package.py`),
 3. publishes them: the lab site at `https://<username>.github.io/` and the personal site at `/personal/`.
 
-The workflow also runs every Monday, so citations, h-index and i10-index stay current even with no edits.
+The workflow also runs every Monday and tries to refresh citations, h-index and i10-index. Google Scholar often blocks
+GitHub's servers ("403 Forbidden"); when it does, the site keeps the last numbers. To refresh from your own PC, where
+Scholar responds, run `tools/refresh_metrics.ps1` (right-click → *Run with PowerShell*). It fetches the latest numbers
+and pushes them, and the site rebuilds automatically. You can also schedule it weekly in Windows Task Scheduler.
 To force an update now: GitHub → *Actions* → *Build and deploy* → *Run workflow*.
 
 To update content: edit `data/*.json`, then commit and push. The site rebuilds in about a minute.
