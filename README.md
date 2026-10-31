@@ -51,11 +51,11 @@ Double-clicking `index.html` also works, because the data is a `.js` file rather
 
 ## Live site (GitHub Pages, automatic)
 
-This folder is the `lightlab/lightlab.github.io` repository (GitHub organisation `lightlab`).
+This folder is the `LiGHTedLab/lightedlab.github.io` repository (GitHub organisation `LiGHTedLab`).
 The original `nareshr9169/nareshr9169.github.io` repository now only forwards visitors to the new addresses. Every push to `main` runs `.github/workflows/deploy.yml`, which:
 1. refreshes the Google Scholar numbers (`tools/update_metrics.py` updates `data/metrics.json`),
 2. builds both sites (`tools/package.py`),
-3. publishes them: the lab site at **https://lightlab.github.io/** and the personal site at **https://lightlab.github.io/naresh/**.
+3. publishes them: the lab site at **https://lightedlab.github.io/** and the personal site at **https://lightedlab.github.io/naresh/**.
    The older `/personal/` address forwards to `/naresh/`.
 
 The workflow also runs every Monday and tries to refresh citations, h-index and i10-index. Google Scholar often blocks
