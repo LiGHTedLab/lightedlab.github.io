@@ -8,6 +8,7 @@ data/publications.bib
 SOURCES.md
 
 *.log
+qr/
 __pycache__/
 *.pyc
 .DS_Store
