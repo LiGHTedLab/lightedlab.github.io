@@ -206,6 +206,11 @@ p { margin: 0 0 1em; }
 .results { margin: 0 0 18px; padding: 0; list-style: none; display: grid; gap: 10px; }
 .results li { position: relative; padding-left: 22px; color: var(--ink-2); font-size: 15px; line-height: 1.55; }
 .results li::before { content: ""; position: absolute; left: 2px; top: .62em; width: 8px; height: 8px; border-radius: 2px; background: var(--accent); transform: rotate(45deg); }
+.approach { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 18px; }
+.approach-card { border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 10px; padding: 10px 12px; background: var(--surface); }
+.approach-card b { display: block; font-size: 13.5px; color: var(--ink); margin-bottom: 4px; }
+.approach-card p { margin: 0; font-size: 13.5px; line-height: 1.5; color: var(--ink-2); }
+@media (max-width: 560px) { .approach { grid-template-columns: 1fr; } }
 .cite { display: inline-block; font-size: 12px; font-weight: 600; padding: 1px 8px; border-radius: 999px; background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--accent); white-space: nowrap; vertical-align: 1px; }
 .cite:hover { text-decoration: none; background: var(--accent); color: var(--accent-ink); }
 @media (max-width: 900px) {
@@ -221,7 +226,7 @@ p { margin: 0 0 1em; }
 
 /* ---------- Lists: grants, timeline, news ---------- */
 .grant { display: grid; gap: 8px; }
-.grant-art { display: block; width: calc(100% + 48px); margin: -24px -24px 8px; padding: 0; border: 0; cursor: zoom-in; background: #070b1f; border-radius: var(--radius) var(--radius) 0 0; overflow: hidden; }
+.grant-art { display: block; width: calc(100% + 48px); margin: -24px -24px 8px; padding: 0; border: 0; cursor: zoom-in; background: #ffffff; border-bottom: 1px solid var(--line); border-radius: var(--radius) var(--radius) 0 0; overflow: hidden; }
 .grant-art img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; transition: transform .3s ease; }
 .grant-art:hover img { transform: scale(1.03); }
 .grant .concept { margin: 0; font-size: 14.5px; color: var(--ink-2); font-style: italic; }
@@ -325,7 +330,7 @@ p { margin: 0 0 1em; }
 .rm.project .rm-card { border-top: 4px solid transparent; border-image: linear-gradient(90deg, #f92445, #b555f2, #2a84fa, #11cfe8, #12d99a) 1; border-image-slice: 1; }
 .rm.project .rm-year { font-size: 20px; }
 .rm.project .rm-dot { border-color: #b555f2; }
-.rm.project .rm-img img { object-fit: cover; background: #070b1f; }
+.rm.project .rm-img img { object-fit: contain; background: #ffffff; }
 .rm.future .rm-card { border-style: dashed; box-shadow: none; background: transparent; }
 .rm-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
 .rm-year { font-family: var(--font-head); font-weight: 700; font-size: 26px; letter-spacing: -.02em; color: var(--accent); line-height: 1; }

@@ -353,6 +353,122 @@
       "image": "assets/research/ga-mosquito.webp"
     },
     {
+      "id": "agri",
+      "title": "Precision Agriculture: IoT and Multimodal OCT–HSI Sensing",
+      "tagline": "Higher yield with less water, fewer inputs and less manual work",
+      "summary": "IoT-connected precision agriculture that predicts and maximises yield with minimal resources and human intervention. Hyperspectral imaging (HSI) screens crops at field scale, optical coherence tomography (OCT) diagnoses tissue below the surface before symptoms appear, and wireless soil and microclimate sensors close the loop through data-driven irrigation, fertigation and disease control.",
+      "results": [
+        {
+          "text": "A wearable, backpack-type OCT system (compact spectrometer, mini-computer, battery and handheld probe) diagnosed leaves in situ in apple, pear and persimmon plantations at early disease stages.",
+          "doi": "10.1364/ao.56.00d108"
+        },
+        {
+          "text": "Released an open OCT dataset and an intensity-based depth-profiling method that pre-identifies apple and persimmon leaf disease from thinning of the palisade and spongy parenchyma.",
+          "doi": "10.1038/s41597-022-01795-4"
+        },
+        {
+          "text": "In vivo OCT tracked Capsicum annuum seed germination under salt (NaCl) stress over nine days; 1310 nm swept-source OCT classified seeds by cultivar and seed treatment.",
+          "doi": "10.3390/s17122887"
+        },
+        {
+          "text": "OCT signal intensity classified rice seed cultivars non-destructively.",
+          "doi": "10.1016/j.compag.2022.107014"
+        },
+        {
+          "text": "YOLOv8 hybridised with OCT automated okra flower-bud identification and quantified emasculation depth through the sepal and petal layers.",
+          "doi": "10.3390/photonics12100966"
+        }
+      ],
+      "approach": [
+        {
+          "title": "Standalone HSI",
+          "text": "Airborne or ground push-broom HSI records reflectance across 400–1000 nm. Vegetation indices (NDVI, red-edge position, water-band index) map chlorophyll, nitrogen and water stress and early disease over whole fields, but only at the surface."
+        },
+        {
+          "title": "Standalone OCT",
+          "text": "Portable or wearable OCT images leaves, seeds and fruit with micrometre depth resolution. It detects pre-symptomatic thinning of leaf layers, changes in seed coat and embryo, and post-harvest defects, but covers millimetres per scan."
+        },
+        {
+          "title": "Multimode",
+          "text": "HSI screens the field and flags anomaly zones, and OCT then examines only those plants, the same targeted strategy as our OCM-guided microscopy. The fused spectral and structural features give earlier, more specific diagnosis than either modality alone."
+        },
+        {
+          "title": "IoT and automation",
+          "text": "Low-power wireless nodes stream soil moisture, temperature and microclimate data. Edge and cloud models combine these with the imaging features to predict yield and disease risk and to drive variable-rate irrigation, fertigation and targeted spraying with minimal human intervention."
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/art/projects/agri-concept.svg",
+          "caption": "Concept: IoT field sensing, standalone HSI and OCT, and the multimode screen-confirm-fuse-predict-act workflow",
+          "credit": "Concept illustration (LiGHT lab)",
+          "doi": ""
+        },
+        {
+          "src": "assets/research/agri-leaf-anatomy.webp",
+          "caption": "Leaf anatomy: healthy, apparently healthy and infected; palisade and spongy layers thin before symptoms are visible",
+          "credit": "Saleah, …, Ravichandran et al., Sci. Data 9, 698 (2022), CC BY 4.0",
+          "doi": "10.1038/s41597-022-01795-4"
+        },
+        {
+          "src": "assets/research/agri-leaf-bscans.webp",
+          "caption": "OCT B-scans of persimmon and apple leaves: healthy, apparently healthy and infected",
+          "credit": "Saleah, …, Ravichandran et al., Sci. Data 9, 698 (2022), CC BY 4.0",
+          "doi": "10.1038/s41597-022-01795-4"
+        },
+        {
+          "src": "assets/research/agri-field-oct.webp",
+          "caption": "Field-portable spectral-domain OCT with a handheld probe used for on-field leaf imaging",
+          "credit": "Saleah, …, Ravichandran et al., Sci. Data 9, 698 (2022), CC BY 4.0",
+          "doi": "10.1038/s41597-022-01795-4"
+        },
+        {
+          "src": "assets/roadmap/2017-backpack-oct.jpg",
+          "caption": "Wearable backpack OCT in the plantation",
+          "credit": "Wijesinghe, …, Ravichandran et al., Appl. Opt. 56(9), D108 (2017)",
+          "doi": "10.1364/ao.56.00d108"
+        },
+        {
+          "src": "assets/research/ga-seed-growth.webp",
+          "caption": "OCT monitoring of Capsicum annuum seed growth under NaCl stress",
+          "credit": "Ravichandran et al., Sensors 17, 2887 (2017), CC BY",
+          "doi": "10.3390/s17122887"
+        },
+        {
+          "src": "assets/research/agri-okra-oct.webp",
+          "caption": "OCT of okra bud excision stages for automated emasculation",
+          "credit": "Tharaka, …, Ravichandran et al., Photonics 12, 966 (2025), CC BY 4.0",
+          "doi": "10.3390/photonics12100966"
+        },
+        {
+          "src": "assets/research/agri-okra-yolo.webp",
+          "caption": "YOLOv8 bud detection in the field, hybridised with OCT depth verification",
+          "credit": "Tharaka, …, Ravichandran et al., Photonics 12, 966 (2025), CC BY 4.0",
+          "doi": "10.3390/photonics12100966"
+        }
+      ],
+      "keywords": [
+        "IoT",
+        "precision agriculture",
+        "yield prediction",
+        "hyperspectral imaging",
+        "OCT",
+        "plant disease",
+        "seed quality"
+      ],
+      "papers": [
+        "10.1364/ao.56.00d108",
+        "10.1038/s41597-022-01795-4",
+        "10.3390/s17122887",
+        "10.3390/s18082500",
+        "10.1016/j.compag.2022.107014",
+        "10.3390/photonics12100966",
+        "10.1016/j.ijleo.2024.171678",
+        "10.1109/icac64487.2024.10850896"
+      ],
+      "image": "assets/art/projects/agri-concept.svg"
+    },
+    {
       "id": "oral",
       "title": "Oral & Dental Optical Diagnostics",
       "tagline": "Non-invasive imaging for earlier diagnosis",
@@ -414,9 +530,9 @@
     },
     {
       "id": "ndt",
-      "title": "Non-Destructive Industrial & Agricultural Inspection",
-      "tagline": "Optical metrology for Industry 4.0 and the field",
-      "summary": "OCT-based inspection of multilayer industrial parts, together with portable OCT for crops, seeds and plant disease in the field.",
+      "title": "Non-Destructive Industrial Inspection",
+      "tagline": "OCT metrology for Industry 4.0",
+      "summary": "OCT-based, non-contact inspection of multilayer industrial parts: displays, thin films, microelectronics and PCBs, laser processing, coatings and semiconductor components, with sub-surface defect detection and in-line quality control.",
       "results": [
         {
           "text": "Review of OCT for Industry 4.0 covering inspection of displays, thin films, microelectronics, PCBs, laser-based manufacturing and coatings, with open challenges and AI-enabled directions.",
@@ -427,32 +543,26 @@
           "doi": "10.2139/ssrn.6350973"
         },
         {
-          "text": "Released an open OCT dataset for pre-identifying apple and persimmon leaf disease from palisade and spongy-layer thickness.",
-          "doi": "10.1038/s41597-022-01795-4"
+          "text": "Line-field spectral-domain OCT assessed the quality of optical thin films.",
+          "doi": "10.1016/j.optlaseng.2018.05.013"
         },
         {
-          "text": "Wearable backpack OCT for in-field leaf inspection, and in vivo monitoring of seed growth under salt stress.",
-          "doi": "10.1364/ao.56.00d108"
+          "text": "Vision-inspection-synchronised dual OCT tracked defects in real time in the optical thin-film industry.",
+          "doi": "10.1109/access.2020.3031361"
         }
       ],
       "figures": [
         {
-          "src": "assets/research/ga-seed-growth.webp",
-          "caption": "Non-destructive OCT monitoring of Capsicum annuum seed growth under NaCl stress",
-          "credit": "Ravichandran et al., Sensors 17, 2887 (2017), CC BY",
-          "doi": "10.3390/s17122887"
+          "src": "assets/research/lpr-overview.webp",
+          "caption": "OCT in smart manufacturing: principles, applications, challenges and future directions",
+          "credit": "Kahatapitiya, …, Ravichandran et al., Laser Photonics Rev. 20, e02290 (2026), CC BY-NC 4.0",
+          "doi": "10.1002/lpor.202502290"
         },
         {
-          "src": "assets/roadmap/2017-backpack-oct.jpg",
-          "caption": "Wearable backpack OCT for in-field leaf inspection",
-          "credit": "Wijesinghe, …, Ravichandran et al., Appl. Opt. 56(9), D108 (2017)",
-          "doi": "10.1364/ao.56.00d108"
-        },
-        {
-          "src": "assets/research/ga-mushroom.webp",
-          "caption": "OCT quantification of moisture in mushroom tissue layers during storage",
-          "credit": "Ravichandran et al., IJAER 12(15), 5011 (2017)",
-          "doi": ""
+          "src": "assets/research/lpr-principle.webp",
+          "caption": "Spectral-domain and swept-source OCT principles used for industrial inspection",
+          "credit": "Kahatapitiya, …, Ravichandran et al., Laser Photonics Rev. 20, e02290 (2026), CC BY-NC 4.0",
+          "doi": "10.1002/lpor.202502290"
         }
       ],
       "keywords": [
@@ -460,18 +570,16 @@
         "Industry 4.0",
         "semiconductors",
         "thin films",
-        "agriculture"
+        "in-line QC"
       ],
       "papers": [
         "10.1002/lpor.202502290",
         "10.2139/ssrn.6350973",
-        "10.1038/s41597-022-01795-4",
-        "10.1364/ao.56.00d108",
-        "10.3390/s17122887",
-        "10.1016/j.optlaseng.2018.05.013"
+        "10.1016/j.optlaseng.2018.05.013",
+        "10.1109/access.2020.3031361"
       ],
       "source": "publications",
-      "image": "assets/research/ga-seed-growth.webp"
+      "image": "assets/research/lpr-overview.webp"
     },
     {
       "id": "compute",

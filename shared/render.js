@@ -181,6 +181,9 @@
           <p class="summary">${esc(t.summary)}</p>
           <h4>Key results</h4>
           <ul class="results">${t.results.map((r) => `<li>${esc(r.text)} ${r.doi ? cite(r.doi) : ""}</li>`).join("")}</ul>
+          ${t.approach ? `<h4>Standalone and multimode</h4><div class="approach">${t.approach
+            .map((a) => `<div class="approach-card"><b>${esc(a.title)}</b><p>${esc(a.text)}</p></div>`)
+            .join("")}</div>` : ""}
           <div class="tags">${t.keywords.map((k) => `<span class="tag">${esc(k)}</span>`).join("")}</div>
         </div>
       </article>`;
